@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>staff_client</string>
+		<string>student_client</string>
+		<string>faculty_client</string>
+	</array>
+	<key>description</key>
+	<string>Java for IS X 2013-005</string>
+	<key>display_name</key>
+	<string>Java for OS X 2013-005</string>
+	<key>installed_size</key>
+	<integer>75897</integer>
+	<key>installer_item_hash</key>
+	<string>81e1155e44b2c606db78487ca1a02e31dbb3cfbf7e0581a4de3ded9e635a704e</string>
+	<key>installer_item_location</key>
+	<string>utilities/JavaForOSX2013-05-1.0.0.0.1.1247562015.dmg</string>
+	<key>installer_item_size</key>
+	<integer>65517</integer>
+	<key>minimum_os_version</key>
+	<string>10.5.0</string>
+	<key>name</key>
+	<string>JavaForOSX</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>installed_size</key>
+			<integer>37022</integer>
+			<key>packageid</key>
+			<string>com.apple.pkg.JavaEssentials</string>
+			<key>version</key>
+			<string>1.0.0.0.1.1247562015</string>
+		</dict>
+		<dict>
+			<key>installed_size</key>
+			<integer>77918</integer>
+			<key>packageid</key>
+			<string>com.apple.pkg.JavaForMacOSX107</string>
+			<key>version</key>
+			<string>1.0.0.0.1.1247562015</string>
+		</dict>
+		<dict>
+			<key>installed_size</key>
+			<integer>206</integer>
+			<key>packageid</key>
+			<string>com.apple.pkg.JavaMDNS</string>
+			<key>version</key>
+			<string>1.0.0.0.1.1247562015</string>
+		</dict>
+		<dict>
+			<key>installed_size</key>
+			<integer>1622</integer>
+			<key>packageid</key>
+			<string>com.apple.pkg.JavaSecurity</string>
+			<key>version</key>
+			<string>1.0.0.0.1.1247562015</string>
+		</dict>
+	</array>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>1.0.0.0.1.1247562015</string>
+</dict>
+</plist>

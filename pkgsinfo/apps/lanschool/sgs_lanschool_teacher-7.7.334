@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>faculty_client</string>
+	</array>
+	<key>description</key>
+	<string>LanSchool Teacher</string>
+	<key>display_name</key>
+	<string>LanSchool Teacher</string>
+	<key>installed_size</key>
+	<integer>20736</integer>
+	<key>installer_item_hash</key>
+	<string>9e256ae63768988786f60653b14bb4a6958807e8f34c8aaa4701cd390065972e</string>
+	<key>installer_item_location</key>
+	<string>apps/lanschool/sgs_lanschool_teacher_2706-7.7.334.pkg</string>
+	<key>installer_item_size</key>
+	<integer>9550</integer>
+	<key>minimum_os_version</key>
+	<string>10.5.0</string>
+	<key>name</key>
+	<string>sgs_lanschool_teacher</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>installed_size</key>
+			<integer>21332</integer>
+			<key>packageid</key>
+			<string>com.lanschool.teacher.pkg</string>
+			<key>version</key>
+			<string>1</string>
+		</dict>
+	</array>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>7.7.334</string>
+</dict>
+</plist>

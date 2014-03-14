@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>student_client</string>
+	</array>
+	<key>description</key>
+	<string>SGS LanSchool Student</string>
+	<key>display_name</key>
+	<string>LanSchool Student</string>
+	<key>installed_size</key>
+	<integer>5496</integer>
+	<key>installer_item_hash</key>
+	<string>583206c89cd825add1737f67cc7313d79c6b879884f9d7a9924828b130109ad0</string>
+	<key>installer_item_location</key>
+	<string>apps/lanschool/sgs_lanschool_student_2706-7.7.334.pkg</string>
+	<key>installer_item_size</key>
+	<integer>2508</integer>
+	<key>minimum_os_version</key>
+	<string>10.5.0</string>
+	<key>name</key>
+	<string>sgs_lanschool_student</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>installed_size</key>
+			<integer>5580</integer>
+			<key>packageid</key>
+			<string>com.lanschool.student.setup.pkg</string>
+			<key>version</key>
+			<string>2</string>
+		</dict>
+	</array>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>7.7.334</string>
+</dict>
+</plist>

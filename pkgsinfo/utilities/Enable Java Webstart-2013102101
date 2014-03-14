@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>staff_client</string>
+		<string>student_client</string>
+		<string>faculty_client</string>
+	</array>
+	<key>description</key>
+	<string>Enable Java Webstart</string>
+	<key>display_name</key>
+	<string>Enable Java Webstart</string>
+	<key>installed_size</key>
+	<integer>355</integer>
+	<key>installer_item_hash</key>
+	<string>2a46e925af101e7dae1ea3eec9aa545061b3237daa919d2895ac7501c3b65095</string>
+	<key>installer_item_location</key>
+	<string>utilities/Enable Java Webstart-2013102101.pkg</string>
+	<key>installer_item_size</key>
+	<integer>244</integer>
+	<key>minimum_os_version</key>
+	<string>10.5.0</string>
+	<key>name</key>
+	<string>Enable Java Webstart</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>installed_size</key>
+			<integer>355</integer>
+			<key>packageid</key>
+			<string>org.seattlegirlsschool.enable_java_webstart</string>
+			<key>version</key>
+			<string>2013102101</string>
+		</dict>
+	</array>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>2013102101</string>
+</dict>
+</plist>

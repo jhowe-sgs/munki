@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>staff_client</string>
+		<string>student_client</string>
+		<string>faculty_client</string>
+	</array>
+	<key>description</key>
+	<string>QuickTime Player 7</string>
+	<key>display_name</key>
+	<string>QuickTime Player 7</string>
+	<key>installed_size</key>
+	<integer>21394</integer>
+	<key>installer_item_hash</key>
+	<string>704b5eee2ad953f301a652033db317e6997b9e5910db4b1f8d511b04ab62f2bc</string>
+	<key>installer_item_location</key>
+	<string>utilities/QuickTimePlayer7.6.6_SnowLeopard-7.6.6.1.1249367152.dmg</string>
+	<key>installer_item_size</key>
+	<integer>10907</integer>
+	<key>minimum_os_version</key>
+	<string>10.5.0</string>
+	<key>name</key>
+	<string>QuickTime Player 7</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>installed_size</key>
+			<integer>32914</integer>
+			<key>packageid</key>
+			<string>com.apple.pkg.QuickTimePlayer7.6.6_SnowLeopard</string>
+			<key>version</key>
+			<string>7.6.6.1.1249367152</string>
+		</dict>
+	</array>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>7.6.6.1.1249367152</string>
+</dict>
+</plist>

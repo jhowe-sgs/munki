@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>staff_client</string>
+		<string>student_client</string>
+		<string>faculty_client</string>
+	</array>
+	<key>description</key>
+	<string>EMail Client from Mozilla</string>
+	<key>display_name</key>
+	<string>Mozilla Thunderbird</string>
+	<key>installer_item_hash</key>
+	<string>8771e9c0ca1686abdcb4c21eee6a85715249226f8754f057f636c6ea281c29ce</string>
+	<key>installer_item_location</key>
+	<string>apps/mozilla/Thunderbird 24.3.0.dmg</string>
+	<key>installer_item_size</key>
+	<integer>45338</integer>
+	<key>installer_type</key>
+	<string>copy_from_dmg</string>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>org.mozilla.thunderbird</string>
+			<key>CFBundleName</key>
+			<string>Thunderbird</string>
+			<key>CFBundleShortVersionString</key>
+			<string>24.3.0</string>
+			<key>CFBundleVersion</key>
+			<string>24.3.0</string>
+			<key>minosversion</key>
+			<string>10.6.0</string>
+			<key>path</key>
+			<string>/Applications/Thunderbird.app</string>
+			<key>type</key>
+			<string>application</string>
+			<key>version_comparison_key</key>
+			<string>CFBundleShortVersionString</string>
+		</dict>
+	</array>
+	<key>items_to_copy</key>
+	<array>
+		<dict>
+			<key>destination_path</key>
+			<string>/Applications</string>
+			<key>source_item</key>
+			<string>Thunderbird.app</string>
+		</dict>
+	</array>
+	<key>minimum_os_version</key>
+	<string>10.6.0</string>
+	<key>name</key>
+	<string>Thunderbird</string>
+	<key>uninstall_method</key>
+	<string>remove_copied_items</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>24.3.0</string>
+</dict>
+</plist>

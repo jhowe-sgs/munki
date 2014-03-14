@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>staff_client</string>
+		<string>student_client</string>
+		<string>faculty_client</string>
+	</array>
+	<key>description</key>
+	<string>Flip4Mac</string>
+	<key>display_name</key>
+	<string>Flip4Mac</string>
+	<key>installed_size</key>
+	<integer>96535</integer>
+	<key>installer_item_hash</key>
+	<string>d1574ca9896f8f40bf4d868e8ff91b1da1ac1dcd91a5b7898f3580543b02988e</string>
+	<key>installer_item_location</key>
+	<string>apps/telestream/Flip4Mac 3.2.0.16.dmg</string>
+	<key>installer_item_size</key>
+	<integer>83809</integer>
+	<key>minimum_os_version</key>
+	<string>10.5.0</string>
+	<key>name</key>
+	<string>Flip4Mac</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>installed_size</key>
+			<integer>96535</integer>
+			<key>packageid</key>
+			<string>net.telestream.Flip4Mac</string>
+			<key>version</key>
+			<string>3.0</string>
+		</dict>
+	</array>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>3.2.0.16</string>
+</dict>
+</plist>

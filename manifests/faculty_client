@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>catalogs</key>
+	<array>
+		<string>faculty_client</string>
+	</array>
+	<key>included_manifests</key>
+	<array>
+	</array>
+	<key>managed_installs</key>
+	<array>
+		<string>sgs_lanschool_teacher</string>
+		<string>Firefox</string>
+		<string>Thunderbird</string>
+		<string>Chrome</string>
+		<string>XRG</string>
+		<string>JavaForOSX</string>
+		<string>Enable Java Webstart</string>
+		<string>Enable Notification Center</string>
+		<string>Disable Notification Center</string>
+		<string>Disable DivX Updater</string>
+		<string>Adobe AIR</string>
+		<string>Adobe Flash Player</string>
+		<string>Comic Life 3</string>
+		<string>License Comic Life 3</string>
+		<string>Gapminder World</string>
+		<string>Office_2011_Update</string>
+		<string>Microsoft Error Reporting Package</string>
+		<string>NameChanger</string>
+		<string>PlotDigitizer</string>
+		<string>iChm</string>
+		<string>VLC</string>
+		<string>LEGO MINDSTORMS Education EV3</string>
+		<string>Silverlight</string>
+		<string>IPEVO Presenter</string>
+		<string>Google Drive</string>
+		<string>Google Voice and Video</string>
+		<string>BlackMagic Desktop Video</string>
+		<string>Flip Player</string>
+		<string>Flip4Mac</string>
+		<string>QuickTime Player 7</string>
+	</array>
+	<key>managed_uninstalls</key>
+	<array>
+	</array>
+</dict>
+</plist>
