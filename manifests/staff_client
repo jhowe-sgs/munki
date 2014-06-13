@@ -39,6 +39,8 @@
                 <string>Flip Player</string>
                 <string>Flip4Mac</string>
                 <string>QuickTime Player 7</string>
+		<string>libdvdcss</string>
+		<string>Skype</string>
 	</array>
 	<key>managed_uninstalls</key>
 	<array>

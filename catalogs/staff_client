@@ -67,49 +67,6 @@
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>staff_client</string>
-			<string>student_client</string>
-			<string>faculty_client</string>
-		</array>
-		<key>description</key>
-		<string>Adobe Flash Player</string>
-		<key>display_name</key>
-		<string>Adobe Flash Player</string>
-		<key>installed_size</key>
-		<integer>18820</integer>
-		<key>installer_item_hash</key>
-		<string>922619db7b165f7a6bbb71f1d75159edea636421c2056cd48136682750d59782</string>
-		<key>installer_item_location</key>
-		<string>apps/adobe/Install Adobe Flash Player-12.0.0.44.pkg</string>
-		<key>installer_item_size</key>
-		<integer>17557</integer>
-		<key>minimum_os_version</key>
-		<string>10.5.0</string>
-		<key>name</key>
-		<string>Adobe Flash Player</string>
-		<key>receipts</key>
-		<array>
-			<dict>
-				<key>installed_size</key>
-				<integer>18820</integer>
-				<key>packageid</key>
-				<string>com.adobe.pkg.FlashPlayer</string>
-				<key>version</key>
-				<string>12.0.0.44</string>
-			</dict>
-		</array>
-		<key>uninstall_method</key>
-		<string>removepackages</string>
-		<key>uninstallable</key>
-		<true/>
-		<key>version</key>
-		<string>12.0.0.44</string>
-	</dict>
-	<dict>
-		<key>autoremove</key>
-		<false/>
-		<key>catalogs</key>
-		<array>
 			<string>faculty_client</string>
 			<string>staff_client</string>
 			<string>student_client</string>
@@ -633,13 +590,13 @@
 		<key>display_name</key>
 		<string>Office_2011_Update</string>
 		<key>installed_size</key>
-		<integer>336856</integer>
+		<integer>337287</integer>
 		<key>installer_item_hash</key>
-		<string>9e10855139ae39de7118485e2bf45b93ad0a82e67d351040bd972ce603040129</string>
+		<string>340ff8b731c89f103927db4a2571fa81c9fcb0dc683f394919fda12bfc793af7</string>
 		<key>installer_item_location</key>
-		<string>apps/microsoft/Office2011-1439Update_EN-US-14.3.9.dmg</string>
+		<string>apps/microsoft/Office2011-1441Update_EN-US-14.4.1.dmg</string>
 		<key>installer_item_size</key>
-		<integer>116053</integer>
+		<integer>116195</integer>
 		<key>minimum_os_version</key>
 		<string>10.5.0</string>
 		<key>name</key>
@@ -650,417 +607,417 @@
 				<key>installed_size</key>
 				<integer>11241</integer>
 				<key>packageid</key>
-				<string>com.microsoft.office.all.automator.pkg.14.3.9.update</string>
+				<string>com.microsoft.office.all.automator.pkg.14.4.1.update</string>
 				<key>version</key>
-				<string>14.3.9</string>
+				<string>14.4.1</string>
 			</dict>
 			<dict>
 				<key>installed_size</key>
-				<integer>141210</integer>
+				<integer>141287</integer>
 				<key>packageid</key>
-				<string>com.microsoft.office.all.core.pkg.14.3.9.update</string>
+				<string>com.microsoft.office.all.core.pkg.14.4.1.update</string>
 				<key>version</key>
-				<string>14.3.9</string>
+				<string>14.4.1</string>
 			</dict>
 			<dict>
 				<key>installed_size</key>
 				<integer>618</integer>
 				<key>packageid</key>
-				<string>com.microsoft.office.all.dcc.pkg.14.3.9.update</string>
+				<string>com.microsoft.office.all.dcc.pkg.14.4.1.update</string>
 				<key>version</key>
-				<string>14.3.9</string>
+				<string>14.4.1</string>
 			</dict>
 			<dict>
 				<key>installed_size</key>
 				<integer>6</integer>
 				<key>packageid</key>
-				<string>com.microsoft.office.all.equationeditor.pkg.14.3.9.update</string>
+				<string>com.microsoft.office.all.equationeditor.pkg.14.4.1.update</string>
 				<key>version</key>
-				<string>14.3.9</string>
+				<string>14.4.1</string>
 			</dict>
 			<dict>
 				<key>installed_size</key>
-				<integer>27608</integer>
+				<integer>27612</integer>
 				<key>packageid</key>
-				<string>com.microsoft.office.all.excel.pkg.14.3.9.update</string>
+				<string>com.microsoft.office.all.excel.pkg.14.4.1.update</string>
 				<key>version</key>
-				<string>14.3.9</string>
+				<string>14.4.1</string>
 			</dict>
 			<dict>
 				<key>installed_size</key>
 				<integer>0</integer>
 				<key>packageid</key>
-				<string>com.microsoft.office.all.fix_permissions.pkg.14.3.9</string>
+				<string>com.microsoft.office.all.fix_permissions.pkg.14.4.1</string>
 				<key>version</key>
-				<string>14.3.9</string>
+				<string>14.4.1</string>
 			</dict>
 			<dict>
 				<key>installed_size</key>
 				<integer>241</integer>
 				<key>packageid</key>
-				<string>com.microsoft.office.all.fonts.pkg.14.3.9.update</string>
+				<string>com.microsoft.office.all.fonts.pkg.14.4.1.update</string>
 				<key>version</key>
-				<string>14.3.9</string>
+				<string>14.4.1</string>
 			</dict>
 			<dict>
 				<key>installed_size</key>
 				<integer>3608</integer>
 				<key>packageid</key>
-				<string>com.microsoft.office.all.graph.pkg.14.3.9.update</string>
+				<string>com.microsoft.office.all.graph.pkg.14.4.1.update</string>
 				<key>version</key>
-				<string>14.3.9</string>
+				<string>14.4.1</string>
 			</dict>
 			<dict>
 				<key>installed_size</key>
 				<integer>22425</integer>
 				<key>packageid</key>
-				<string>com.microsoft.office.all.ooxml.pkg.14.3.9.update</string>
+				<string>com.microsoft.office.all.ooxml.pkg.14.4.1.update</string>
 				<key>version</key>
-				<string>14.3.9</string>
+				<string>14.4.1</string>
 			</dict>
 			<dict>
 				<key>installed_size</key>
-				<integer>24438</integer>
+				<integer>24462</integer>
 				<key>packageid</key>
-				<string>com.microsoft.office.all.outlook.pkg.14.3.9.update</string>
+				<string>com.microsoft.office.all.outlook.pkg.14.4.1.update</string>
 				<key>version</key>
-				<string>14.3.9</string>
+				<string>14.4.1</string>
 			</dict>
 			<dict>
 				<key>installed_size</key>
-				<integer>19424</integer>
+				<integer>19429</integer>
 				<key>packageid</key>
-				<string>com.microsoft.office.all.powerpoint.pkg.14.3.9.update</string>
+				<string>com.microsoft.office.all.powerpoint.pkg.14.4.1.update</string>
 				<key>version</key>
-				<string>14.3.9</string>
-			</dict>
-			<dict>
-				<key>installed_size</key>
-				<integer>401</integer>
-				<key>packageid</key>
-				<string>com.microsoft.office.all.proofing_brazilian.pkg.14.3.9.update</string>
-				<key>version</key>
-				<string>14.3.9</string>
+				<string>14.4.1</string>
 			</dict>
 			<dict>
 				<key>installed_size</key>
 				<integer>401</integer>
 				<key>packageid</key>
-				<string>com.microsoft.office.all.proofing_catalan.pkg.14.3.9.update</string>
+				<string>com.microsoft.office.all.proofing_brazilian.pkg.14.4.1.update</string>
 				<key>version</key>
-				<string>14.3.9</string>
+				<string>14.4.1</string>
 			</dict>
 			<dict>
 				<key>installed_size</key>
 				<integer>401</integer>
 				<key>packageid</key>
-				<string>com.microsoft.office.all.proofing_czech.pkg.14.3.9.update</string>
+				<string>com.microsoft.office.all.proofing_catalan.pkg.14.4.1.update</string>
 				<key>version</key>
-				<string>14.3.9</string>
+				<string>14.4.1</string>
 			</dict>
 			<dict>
 				<key>installed_size</key>
 				<integer>401</integer>
 				<key>packageid</key>
-				<string>com.microsoft.office.all.proofing_danish.pkg.14.3.9.update</string>
+				<string>com.microsoft.office.all.proofing_czech.pkg.14.4.1.update</string>
 				<key>version</key>
-				<string>14.3.9</string>
+				<string>14.4.1</string>
 			</dict>
 			<dict>
 				<key>installed_size</key>
 				<integer>401</integer>
 				<key>packageid</key>
-				<string>com.microsoft.office.all.proofing_dutch.pkg.14.3.9.update</string>
+				<string>com.microsoft.office.all.proofing_danish.pkg.14.4.1.update</string>
 				<key>version</key>
-				<string>14.3.9</string>
+				<string>14.4.1</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>401</integer>
+				<key>packageid</key>
+				<string>com.microsoft.office.all.proofing_dutch.pkg.14.4.1.update</string>
+				<key>version</key>
+				<string>14.4.1</string>
 			</dict>
 			<dict>
 				<key>installed_size</key>
 				<integer>1852</integer>
 				<key>packageid</key>
-				<string>com.microsoft.office.all.proofing_english.pkg.14.3.9.update</string>
+				<string>com.microsoft.office.all.proofing_english.pkg.14.4.1.update</string>
 				<key>version</key>
-				<string>14.3.9</string>
+				<string>14.4.1</string>
 			</dict>
 			<dict>
 				<key>installed_size</key>
 				<integer>7</integer>
 				<key>packageid</key>
-				<string>com.microsoft.office.all.proofing_finnish.pkg.14.3.9.update</string>
+				<string>com.microsoft.office.all.proofing_finnish.pkg.14.4.1.update</string>
 				<key>version</key>
-				<string>14.3.9</string>
+				<string>14.4.1</string>
 			</dict>
 			<dict>
 				<key>installed_size</key>
 				<integer>1392</integer>
 				<key>packageid</key>
-				<string>com.microsoft.office.all.proofing_french.pkg.14.3.9.update</string>
+				<string>com.microsoft.office.all.proofing_french.pkg.14.4.1.update</string>
 				<key>version</key>
-				<string>14.3.9</string>
+				<string>14.4.1</string>
 			</dict>
 			<dict>
 				<key>installed_size</key>
 				<integer>1897</integer>
 				<key>packageid</key>
-				<string>com.microsoft.office.all.proofing_german.pkg.14.3.9.update</string>
+				<string>com.microsoft.office.all.proofing_german.pkg.14.4.1.update</string>
 				<key>version</key>
-				<string>14.3.9</string>
+				<string>14.4.1</string>
 			</dict>
 			<dict>
 				<key>installed_size</key>
 				<integer>401</integer>
 				<key>packageid</key>
-				<string>com.microsoft.office.all.proofing_italian.pkg.14.3.9.update</string>
+				<string>com.microsoft.office.all.proofing_italian.pkg.14.4.1.update</string>
 				<key>version</key>
-				<string>14.3.9</string>
+				<string>14.4.1</string>
 			</dict>
 			<dict>
 				<key>installed_size</key>
 				<integer>1783</integer>
 				<key>packageid</key>
-				<string>com.microsoft.office.all.proofing_italian_grammar.pkg.14.3.9.update</string>
+				<string>com.microsoft.office.all.proofing_italian_grammar.pkg.14.4.1.update</string>
 				<key>version</key>
-				<string>14.3.9</string>
+				<string>14.4.1</string>
 			</dict>
 			<dict>
 				<key>installed_size</key>
 				<integer>290</integer>
 				<key>packageid</key>
-				<string>com.microsoft.office.all.proofing_japanese.pkg.14.3.9.update</string>
+				<string>com.microsoft.office.all.proofing_japanese.pkg.14.4.1.update</string>
 				<key>version</key>
-				<string>14.3.9</string>
+				<string>14.4.1</string>
 			</dict>
 			<dict>
 				<key>installed_size</key>
 				<integer>799</integer>
 				<key>packageid</key>
-				<string>com.microsoft.office.all.proofing_norwegian.pkg.14.3.9.update</string>
+				<string>com.microsoft.office.all.proofing_norwegian.pkg.14.4.1.update</string>
 				<key>version</key>
-				<string>14.3.9</string>
+				<string>14.4.1</string>
 			</dict>
 			<dict>
 				<key>installed_size</key>
 				<integer>401</integer>
 				<key>packageid</key>
-				<string>com.microsoft.office.all.proofing_polish.pkg.14.3.9.update</string>
+				<string>com.microsoft.office.all.proofing_polish.pkg.14.4.1.update</string>
 				<key>version</key>
-				<string>14.3.9</string>
+				<string>14.4.1</string>
 			</dict>
 			<dict>
 				<key>installed_size</key>
 				<integer>401</integer>
 				<key>packageid</key>
-				<string>com.microsoft.office.all.proofing_portuguese.pkg.14.3.9.update</string>
+				<string>com.microsoft.office.all.proofing_portuguese.pkg.14.4.1.update</string>
 				<key>version</key>
-				<string>14.3.9</string>
+				<string>14.4.1</string>
 			</dict>
 			<dict>
 				<key>installed_size</key>
 				<integer>401</integer>
 				<key>packageid</key>
-				<string>com.microsoft.office.all.proofing_russian.pkg.14.3.9.update</string>
+				<string>com.microsoft.office.all.proofing_russian.pkg.14.4.1.update</string>
 				<key>version</key>
-				<string>14.3.9</string>
+				<string>14.4.1</string>
 			</dict>
 			<dict>
 				<key>installed_size</key>
 				<integer>402</integer>
 				<key>packageid</key>
-				<string>com.microsoft.office.all.proofing_spanish.pkg.14.3.9.update</string>
+				<string>com.microsoft.office.all.proofing_spanish.pkg.14.4.1.update</string>
 				<key>version</key>
-				<string>14.3.9</string>
+				<string>14.4.1</string>
 			</dict>
 			<dict>
 				<key>installed_size</key>
 				<integer>402</integer>
 				<key>packageid</key>
-				<string>com.microsoft.office.all.proofing_swedish.pkg.14.3.9.update</string>
+				<string>com.microsoft.office.all.proofing_swedish.pkg.14.4.1.update</string>
 				<key>version</key>
-				<string>14.3.9</string>
+				<string>14.4.1</string>
 			</dict>
 			<dict>
 				<key>installed_size</key>
 				<integer>401</integer>
 				<key>packageid</key>
-				<string>com.microsoft.office.all.proofing_turkish.pkg.14.3.9.update</string>
+				<string>com.microsoft.office.all.proofing_turkish.pkg.14.4.1.update</string>
 				<key>version</key>
-				<string>14.3.9</string>
+				<string>14.4.1</string>
 			</dict>
 			<dict>
 				<key>installed_size</key>
 				<integer>0</integer>
 				<key>packageid</key>
-				<string>com.microsoft.office.all.quit.pkg.14.3.9.update</string>
+				<string>com.microsoft.office.all.quit.pkg.14.4.1.update</string>
 				<key>version</key>
-				<string>14.3.9</string>
+				<string>14.4.1</string>
 			</dict>
 			<dict>
 				<key>installed_size</key>
-				<integer>278</integer>
+				<integer>279</integer>
 				<key>packageid</key>
-				<string>com.microsoft.office.all.sharepointbrowserplugin.pkg.14.3.9.update</string>
+				<string>com.microsoft.office.all.sharepointbrowserplugin.pkg.14.4.1.update</string>
 				<key>version</key>
-				<string>14.3.9</string>
+				<string>14.4.1</string>
 			</dict>
 			<dict>
 				<key>installed_size</key>
-				<integer>5469</integer>
+				<integer>5465</integer>
 				<key>packageid</key>
-				<string>com.microsoft.office.all.vb.pkg.14.3.9.update</string>
+				<string>com.microsoft.office.all.vb.pkg.14.4.1.update</string>
 				<key>version</key>
-				<string>14.3.9</string>
+				<string>14.4.1</string>
 			</dict>
 			<dict>
 				<key>installed_size</key>
-				<integer>36855</integer>
+				<integer>36860</integer>
 				<key>packageid</key>
-				<string>com.microsoft.office.all.word.pkg.14.3.9.update</string>
+				<string>com.microsoft.office.all.word.pkg.14.4.1.update</string>
 				<key>version</key>
-				<string>14.3.9</string>
+				<string>14.4.1</string>
 			</dict>
 			<dict>
 				<key>installed_size</key>
 				<integer>55</integer>
 				<key>packageid</key>
-				<string>com.microsoft.office.en.automator_workflow.pkg.14.3.9.update</string>
+				<string>com.microsoft.office.en.automator_workflow.pkg.14.4.1.update</string>
 				<key>version</key>
-				<string>14.3.9</string>
+				<string>14.4.1</string>
 			</dict>
 			<dict>
 				<key>installed_size</key>
 				<integer>7</integer>
 				<key>packageid</key>
-				<string>com.microsoft.office.en.clipart.pkg.14.3.9.update</string>
+				<string>com.microsoft.office.en.clipart.pkg.14.4.1.update</string>
 				<key>version</key>
-				<string>14.3.9</string>
+				<string>14.4.1</string>
 			</dict>
 			<dict>
 				<key>installed_size</key>
-				<integer>12634</integer>
+				<integer>12666</integer>
 				<key>packageid</key>
-				<string>com.microsoft.office.en.core_resources.pkg.14.3.9.update</string>
+				<string>com.microsoft.office.en.core_resources.pkg.14.4.1.update</string>
 				<key>version</key>
-				<string>14.3.9</string>
+				<string>14.4.1</string>
 			</dict>
 			<dict>
 				<key>installed_size</key>
-				<integer>308</integer>
+				<integer>401</integer>
 				<key>packageid</key>
-				<string>com.microsoft.office.en.dcc_resources.pkg.14.3.9.update</string>
+				<string>com.microsoft.office.en.dcc_resources.pkg.14.4.1.update</string>
 				<key>version</key>
-				<string>14.3.9</string>
+				<string>14.4.1</string>
 			</dict>
 			<dict>
 				<key>installed_size</key>
 				<integer>35</integer>
 				<key>packageid</key>
-				<string>com.microsoft.office.en.equationeditor_resources.pkg.14.3.9.update</string>
+				<string>com.microsoft.office.en.equationeditor_resources.pkg.14.4.1.update</string>
 				<key>version</key>
-				<string>14.3.9</string>
+				<string>14.4.1</string>
 			</dict>
 			<dict>
 				<key>installed_size</key>
-				<integer>1874</integer>
+				<integer>1904</integer>
 				<key>packageid</key>
-				<string>com.microsoft.office.en.excel_resources.pkg.14.3.9.update</string>
+				<string>com.microsoft.office.en.excel_resources.pkg.14.4.1.update</string>
 				<key>version</key>
-				<string>14.3.9</string>
+				<string>14.4.1</string>
 			</dict>
 			<dict>
 				<key>installed_size</key>
 				<integer>180</integer>
 				<key>packageid</key>
-				<string>com.microsoft.office.en.excel_templates.pkg.14.3.9.update</string>
+				<string>com.microsoft.office.en.excel_templates.pkg.14.4.1.update</string>
 				<key>version</key>
-				<string>14.3.9</string>
+				<string>14.4.1</string>
 			</dict>
 			<dict>
 				<key>installed_size</key>
 				<integer>25</integer>
 				<key>packageid</key>
-				<string>com.microsoft.office.en.graph_resources.pkg.14.3.9.update</string>
+				<string>com.microsoft.office.en.graph_resources.pkg.14.4.1.update</string>
 				<key>version</key>
-				<string>14.3.9</string>
+				<string>14.4.1</string>
 			</dict>
 			<dict>
 				<key>installed_size</key>
 				<integer>31</integer>
 				<key>packageid</key>
-				<string>com.microsoft.office.en.langregister.pkg.14.3.9.update</string>
+				<string>com.microsoft.office.en.langregister.pkg.14.4.1.update</string>
 				<key>version</key>
-				<string>14.3.9</string>
+				<string>14.4.1</string>
 			</dict>
 			<dict>
 				<key>installed_size</key>
 				<integer>5360</integer>
 				<key>packageid</key>
-				<string>com.microsoft.office.en.outlook_resources.pkg.14.3.9.update</string>
+				<string>com.microsoft.office.en.outlook_resources.pkg.14.4.1.update</string>
 				<key>version</key>
-				<string>14.3.9</string>
+				<string>14.4.1</string>
 			</dict>
 			<dict>
 				<key>installed_size</key>
 				<integer>11</integer>
 				<key>packageid</key>
-				<string>com.microsoft.office.en.outlook_scriptmenuitems.pkg.14.3.9.update</string>
+				<string>com.microsoft.office.en.outlook_scriptmenuitems.pkg.14.4.1.update</string>
 				<key>version</key>
-				<string>14.3.9</string>
+				<string>14.4.1</string>
 			</dict>
 			<dict>
 				<key>installed_size</key>
-				<integer>794</integer>
+				<integer>892</integer>
 				<key>packageid</key>
-				<string>com.microsoft.office.en.powerpoint_resources.pkg.14.3.9.update</string>
+				<string>com.microsoft.office.en.powerpoint_resources.pkg.14.4.1.update</string>
 				<key>version</key>
-				<string>14.3.9</string>
+				<string>14.4.1</string>
 			</dict>
 			<dict>
 				<key>installed_size</key>
 				<integer>6649</integer>
 				<key>packageid</key>
-				<string>com.microsoft.office.en.query.pkg.14.3.9.update</string>
+				<string>com.microsoft.office.en.query.pkg.14.4.1.update</string>
 				<key>version</key>
-				<string>14.3.9</string>
+				<string>14.4.1</string>
 			</dict>
 			<dict>
 				<key>installed_size</key>
 				<integer>4</integer>
 				<key>packageid</key>
-				<string>com.microsoft.office.en.readme.pkg.14.3.9.update</string>
+				<string>com.microsoft.office.en.readme.pkg.14.4.1.update</string>
 				<key>version</key>
-				<string>14.3.9</string>
+				<string>14.4.1</string>
 			</dict>
 			<dict>
 				<key>installed_size</key>
-				<integer>4</integer>
+				<integer>5</integer>
 				<key>packageid</key>
-				<string>com.microsoft.office.en.sharepointbrowserplugin_resources.pkg.14.3.9.update</string>
+				<string>com.microsoft.office.en.sharepointbrowserplugin_resources.pkg.14.4.1.update</string>
 				<key>version</key>
-				<string>14.3.9</string>
+				<string>14.4.1</string>
 			</dict>
 			<dict>
 				<key>installed_size</key>
 				<integer>858</integer>
 				<key>packageid</key>
-				<string>com.microsoft.office.en.solver.pkg.14.3.9.update</string>
+				<string>com.microsoft.office.en.solver.pkg.14.4.1.update</string>
 				<key>version</key>
-				<string>14.3.9</string>
+				<string>14.4.1</string>
 			</dict>
 			<dict>
 				<key>installed_size</key>
-				<integer>1740</integer>
+				<integer>1805</integer>
 				<key>packageid</key>
-				<string>com.microsoft.office.en.word_resources.pkg.14.3.9.update</string>
+				<string>com.microsoft.office.en.word_resources.pkg.14.4.1.update</string>
 				<key>version</key>
-				<string>14.3.9</string>
+				<string>14.4.1</string>
 			</dict>
 			<dict>
 				<key>installed_size</key>
 				<integer>32</integer>
 				<key>packageid</key>
-				<string>com.microsoft.office.en.word_wizards.pkg.14.3.9.update</string>
+				<string>com.microsoft.office.en.word_wizards.pkg.14.4.1.update</string>
 				<key>version</key>
-				<string>14.3.9</string>
+				<string>14.4.1</string>
 			</dict>
 		</array>
 		<key>uninstall_method</key>
@@ -1068,7 +1025,7 @@
 		<key>uninstallable</key>
 		<true/>
 		<key>version</key>
-		<string>14.3.9</string>
+		<string>14.4.1</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -1245,6 +1202,65 @@
 		<key>catalogs</key>
 		<array>
 			<string>staff_client</string>
+			<string>faculty_client</string>
+		</array>
+		<key>description</key>
+		<string>Skype</string>
+		<key>display_name</key>
+		<string>Skype</string>
+		<key>installer_item_hash</key>
+		<string>1939062edb533d21bef6c55961d7d75ce649ffdbd3e7f7aa9b9c0da8d1494948</string>
+		<key>installer_item_location</key>
+		<string>apps/skype/Skype_6.15.60.330.dmg</string>
+		<key>installer_item_size</key>
+		<integer>42495</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.skype.skype</string>
+				<key>CFBundleShortVersionString</key>
+				<string>6.15</string>
+				<key>CFBundleVersion</key>
+				<string>6.15.60.330</string>
+				<key>minosversion</key>
+				<string>10.6.0</string>
+				<key>path</key>
+				<string>/Applications/Skype.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Skype.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.6.0</string>
+		<key>name</key>
+		<string>Skype</string>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>6.15.60.330</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>staff_client</string>
 			<string>student_client</string>
 			<string>faculty_client</string>
 		</array>
@@ -1349,8 +1365,8 @@
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>staff_client</string>
 			<string>student_client</string>
+			<string>staff_client</string>
 			<string>faculty_client</string>
 		</array>
 		<key>description</key>
@@ -1358,11 +1374,11 @@
 		<key>display_name</key>
 		<string>VLC Media Player</string>
 		<key>installer_item_hash</key>
-		<string>869ebe7898e316b08308e149c16a01396151cb513808af15cc19053b2dda5bb4</string>
+		<string>01eda0d2672e9517837df595767ee27baf44f92126285af22a9c05df65abc57a</string>
 		<key>installer_item_location</key>
-		<string>apps/vlc/vlc-2.1.3.dmg</string>
+		<string>apps/vlc/vlc-2.1.4.dmg</string>
 		<key>installer_item_size</key>
-		<integer>32966</integer>
+		<integer>33134</integer>
 		<key>installer_type</key>
 		<string>copy_from_dmg</string>
 		<key>installs</key>
@@ -1373,9 +1389,9 @@
 				<key>CFBundleName</key>
 				<string>VLC media player</string>
 				<key>CFBundleShortVersionString</key>
-				<string>2.1.3</string>
+				<string>2.1.4</string>
 				<key>CFBundleVersion</key>
-				<string>2.1.3</string>
+				<string>2.1.4</string>
 				<key>minosversion</key>
 				<string>10.6.0</string>
 				<key>path</key>
@@ -1404,7 +1420,7 @@
 		<key>uninstallable</key>
 		<true/>
 		<key>version</key>
-		<string>2.1.3</string>
+		<string>2.1.4</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -1734,6 +1750,49 @@
 		<true/>
 		<key>version</key>
 		<string>1.0.0.0.1.1247562015</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>student_client</string>
+			<string>staff_client</string>
+			<string>faculty_client</string>
+		</array>
+		<key>description</key>
+		<string>libdvdcss</string>
+		<key>display_name</key>
+		<string>libdvdcss</string>
+		<key>installed_size</key>
+		<integer>88</integer>
+		<key>installer_item_hash</key>
+		<string>182f272a84e04c200b6b17531b5c4ac2de759bde16e17e1097093f0374353b06</string>
+		<key>installer_item_location</key>
+		<string>utilities/libdvdcss-1.2.12.pkg</string>
+		<key>installer_item_size</key>
+		<integer>35</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>libdvdcss</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>88</integer>
+				<key>packageid</key>
+				<string>org.videolan.vlc.libdvdcss.2.pkg</string>
+				<key>version</key>
+				<string>1.0</string>
+			</dict>
+		</array>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>1.2.12</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
