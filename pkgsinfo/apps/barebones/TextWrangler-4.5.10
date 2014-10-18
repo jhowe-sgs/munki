@@ -2,41 +2,52 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>_metadata</key>
+	<dict>
+		<key>created_by</key>
+		<string>root</string>
+		<key>creation_date</key>
+		<date>2014-09-29T19:20:13Z</date>
+		<key>munki_version</key>
+		<string>1.0.0.1864</string>
+		<key>os_version</key>
+		<string>10.9.5</string>
+	</dict>
 	<key>autoremove</key>
 	<false/>
 	<key>catalogs</key>
 	<array>
 		<string>staff_client</string>
-		<string>student_client</string>
 		<string>faculty_client</string>
+		<string>student_client</string>
 	</array>
 	<key>description</key>
-	<string>EMail Client from Mozilla</string>
+	<string>TextWrangler Programmers Editor</string>
 	<key>display_name</key>
-	<string>Mozilla Thunderbird</string>
+	<string>TextWrangler Programmers Editor</string>
 	<key>installer_item_hash</key>
-	<string>8771e9c0ca1686abdcb4c21eee6a85715249226f8754f057f636c6ea281c29ce</string>
+	<string>52eb092165f86a7a6faddd9b97c75f9781ef13462fcdf9a16d919960db8613a8</string>
 	<key>installer_item_location</key>
-	<string>apps/mozilla/Thunderbird 24.3.0.dmg</string>
+	<string>apps/barebones/TextWrangler_4.5.10.dmg</string>
 	<key>installer_item_size</key>
-	<integer>45338</integer>
+	<integer>9659</integer>
 	<key>installer_type</key>
 	<string>copy_from_dmg</string>
 	<key>installs</key>
 	<array>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>org.mozilla.thunderbird</string>
+			<string>com.barebones.textwrangler</string>
 			<key>CFBundleName</key>
-			<string>Thunderbird</string>
+			<string>TextWrangler</string>
 			<key>CFBundleShortVersionString</key>
-			<string>24.3.0</string>
+			<string>4.5.10</string>
 			<key>CFBundleVersion</key>
-			<string>24.3.0</string>
+			<string>3392</string>
 			<key>minosversion</key>
-			<string>10.6.0</string>
+			<string>10.6.8</string>
 			<key>path</key>
-			<string>/Applications/Thunderbird.app</string>
+			<string>/Applications/TextWrangler.app</string>
 			<key>type</key>
 			<string>application</string>
 			<key>version_comparison_key</key>
@@ -49,18 +60,18 @@
 			<key>destination_path</key>
 			<string>/Applications</string>
 			<key>source_item</key>
-			<string>Thunderbird.app</string>
+			<string>TextWrangler.app</string>
 		</dict>
 	</array>
 	<key>minimum_os_version</key>
-	<string>10.6.0</string>
+	<string>10.6.8</string>
 	<key>name</key>
-	<string>Thunderbird</string>
+	<string>TextWrangler</string>
 	<key>uninstall_method</key>
 	<string>remove_copied_items</string>
 	<key>uninstallable</key>
 	<true/>
 	<key>version</key>
-	<string>24.3.0</string>
+	<string>4.5.10</string>
 </dict>
 </plist>

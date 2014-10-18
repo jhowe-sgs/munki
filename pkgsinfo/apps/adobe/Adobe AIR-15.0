@@ -2,24 +2,35 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>_metadata</key>
+	<dict>
+		<key>created_by</key>
+		<string>root</string>
+		<key>creation_date</key>
+		<date>2014-09-29T19:23:46Z</date>
+		<key>munki_version</key>
+		<string>1.0.0.1864</string>
+		<key>os_version</key>
+		<string>10.9.5</string>
+	</dict>
 	<key>autoremove</key>
 	<false/>
 	<key>catalogs</key>
 	<array>
 		<string>staff_client</string>
-		<string>student_client</string>
 		<string>faculty_client</string>
+		<string>student_client</string>
 	</array>
 	<key>description</key>
 	<string>Adobe AIR</string>
 	<key>display_name</key>
 	<string>Adobe AIR</string>
 	<key>installer_item_hash</key>
-	<string>7be7fa0b6cd59ca3a85805e519135f738373719017c040ce7021b916427144a0</string>
+	<string>07f7ae83b9d9005c830ce7592d651c378e235a20f62da692410035a703af20c7</string>
 	<key>installer_item_location</key>
-	<string>apps/adobe/AdobeAIR-4.0.dmg</string>
+	<string>apps/adobe/AdobeAIR-15.0.dmg</string>
 	<key>installer_item_size</key>
-	<integer>26943</integer>
+	<integer>25297</integer>
 	<key>installer_type</key>
 	<string>copy_from_dmg</string>
 	<key>installs</key>
@@ -28,9 +39,9 @@
 			<key>CFBundleIdentifier</key>
 			<string>com.adobe.air.Installer</string>
 			<key>CFBundleShortVersionString</key>
-			<string>4.0</string>
+			<string>15.0</string>
 			<key>CFBundleVersion</key>
-			<string>4.0.0.1390</string>
+			<string>15.0.0.249</string>
 			<key>minosversion</key>
 			<string>10.6</string>
 			<key>path</key>
@@ -59,6 +70,6 @@
 	<key>uninstallable</key>
 	<true/>
 	<key>version</key>
-	<string>4.0</string>
+	<string>15.0</string>
 </dict>
 </plist>

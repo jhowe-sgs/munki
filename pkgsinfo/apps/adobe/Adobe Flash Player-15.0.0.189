@@ -2,37 +2,50 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>_metadata</key>
+	<dict>
+		<key>created_by</key>
+		<string>root</string>
+		<key>creation_date</key>
+		<date>2014-10-15T21:24:25Z</date>
+		<key>munki_version</key>
+		<string>1.0.0.1864</string>
+		<key>os_version</key>
+		<string>10.9.5</string>
+	</dict>
 	<key>autoremove</key>
 	<false/>
 	<key>catalogs</key>
 	<array>
+		<string>staff_client</string>
 		<string>student_client</string>
+		<string>faculty_client</string>
 	</array>
 	<key>description</key>
-	<string>SGS LanSchool Student</string>
+	<string>Adobe Flash Player</string>
 	<key>display_name</key>
-	<string>LanSchool Student</string>
+	<string>Adobe Flash Player</string>
 	<key>installed_size</key>
-	<integer>5496</integer>
+	<integer>16056</integer>
 	<key>installer_item_hash</key>
-	<string>583206c89cd825add1737f67cc7313d79c6b879884f9d7a9924828b130109ad0</string>
+	<string>d8722f8aaee1f8cfd1283cdf3b5c7fddab17427b111d9640a4f6b413c9920140</string>
 	<key>installer_item_location</key>
-	<string>apps/lanschool/sgs_lanschool_student_2706-7.7.334.pkg</string>
+	<string>apps/adobe/Install Adobe Flash Player-15.0.0.189.pkg</string>
 	<key>installer_item_size</key>
-	<integer>2508</integer>
+	<integer>14800</integer>
 	<key>minimum_os_version</key>
 	<string>10.5.0</string>
 	<key>name</key>
-	<string>sgs_lanschool_student</string>
+	<string>Adobe Flash Player</string>
 	<key>receipts</key>
 	<array>
 		<dict>
 			<key>installed_size</key>
-			<integer>5580</integer>
+			<integer>16056</integer>
 			<key>packageid</key>
-			<string>com.lanschool.student.setup.pkg</string>
+			<string>com.adobe.pkg.FlashPlayer</string>
 			<key>version</key>
-			<string>2</string>
+			<string>15.0.0.189</string>
 		</dict>
 	</array>
 	<key>uninstall_method</key>
@@ -40,6 +53,6 @@
 	<key>uninstallable</key>
 	<true/>
 	<key>version</key>
-	<string>7.7.334</string>
+	<string>15.0.0.189</string>
 </dict>
 </plist>

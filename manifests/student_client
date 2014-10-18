@@ -13,35 +13,15 @@
 	<array>
 		<string>sgs_lanschool_student</string>
 		<string>Firefox</string>
-                <string>Thunderbird</string>
-                <string>Chrome</string>
-                <string>XRG</string>
-                <string>JavaForOSX</string>
-                <string>Enable Java Webstart</string>
-                <string>Enable Notification Center</string>
-                <string>Disable Notification Center</string>
-                <string>Disable DivX Updater</string>
-                <string>Adobe AIR</string>
-                <string>Adobe Flash Player</string>
-                <string>Comic Life 3</string>
+		<string>Chrome</string>
+		<string>Adobe Flash Player</string>
 		<string>License Comic Life 3</string>
-                <string>Gapminder World</string>
-                <string>Office_2011_Update</string>
-		<string>Microsoft Error Reporting Package</string>
-                <string>NameChanger</string>
-                <string>PlotDigitizer</string>
-                <string>iChm</string>
-                <string>VLC</string>
-                <string>LEGO MINDSTORMS Education EV3</string>
-                <string>Silverlight</string>
-		<string>IPEVO Presenter</string>
-                <string>Google Drive</string>
-                <string>Google Voice and Video</string>
-                <string>BlackMagic Desktop Video</string>
-                <string>Flip Player</string>
-                <string>Flip4Mac</string>
-                <string>QuickTime Player 7</string>
+		<string>Office_2011_Update</string>
+		<string>VLC</string>
+		<string>Silverlight</string>
 		<string>libdvdcss</string>
+		<string>TextWrangler</string>
+		<string>Amazon Kindle App</string>
 	</array>
 	<key>managed_uninstalls</key>
 	<array>

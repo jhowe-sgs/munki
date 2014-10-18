@@ -2,13 +2,24 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>_metadata</key>
+	<dict>
+		<key>created_by</key>
+		<string>root</string>
+		<key>creation_date</key>
+		<date>2014-09-29T19:06:19Z</date>
+		<key>munki_version</key>
+		<string>1.0.0.1864</string>
+		<key>os_version</key>
+		<string>10.9.5</string>
+	</dict>
 	<key>autoremove</key>
 	<false/>
 	<key>catalogs</key>
 	<array>
 		<string>staff_client</string>
-		<string>student_client</string>
 		<string>faculty_client</string>
+		<string>student_client</string>
 	</array>
 	<key>description</key>
 	<string>Microsoft® Silverlight™ Browser Plug-In</string>
@@ -17,11 +28,11 @@
 	<key>installed_size</key>
 	<integer>99420</integer>
 	<key>installer_item_hash</key>
-	<string>f3e9e1bf30adbeb891ce44595541acba7d35b23c03f96a2b7df91b15325bf4cf</string>
+	<string>469a7b19cf4a87a1248caa850c7de61c88e67c0c5511fe77032817cd79df9dea</string>
 	<key>installer_item_location</key>
-	<string>apps/microsoft/Silverlight-5.1.20913.0.dmg</string>
+	<string>apps/microsoft/Silverlight-5.1.30514.0.dmg</string>
 	<key>installer_item_size</key>
-	<integer>14837</integer>
+	<integer>14888</integer>
 	<key>minimum_os_version</key>
 	<string>10.4.0</string>
 	<key>name</key>
@@ -36,7 +47,7 @@
 			<key>packageid</key>
 			<string>com.microsoft.SilverlightInstaller</string>
 			<key>version</key>
-			<string>5.1.20913.0</string>
+			<string>5.1.30514.0</string>
 		</dict>
 	</array>
 	<key>uninstall_method</key>
@@ -44,6 +55,6 @@
 	<key>uninstallable</key>
 	<true/>
 	<key>version</key>
-	<string>5.1.20913.0</string>
+	<string>5.1.30514.0</string>
 </dict>
 </plist>
