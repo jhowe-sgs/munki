@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>catalogs</key>
+	<array>
+		<string>student_client_template</string>
+	</array>
+	<key>included_manifests</key>
+	<array>
+	</array>
+	<key>managed_installs</key>
+	<array>
+		<string>sgs_lanschool_student</string>
+		<string>Firefox</string>
+		<string>Chrome</string>
+		<string>Adobe Flash Player</string>
+		<string>License Comic Life 3</string>
+		<string>Office_2011_Update</string>
+		<string>VLC</string>
+		<string>Silverlight</string>
+		<string>libdvdcss</string>
+	</array>
+	<key>managed_uninstalls</key>
+	<array>
+	</array>
+</dict>
+</plist>
