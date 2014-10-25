@@ -17,7 +17,7 @@
 	<false/>
 	<key>catalogs</key>
 	<array>
-		<string>student_client</string>
+		<string>sgs-catalog</string>
 	</array>
 	<key>description</key>
 	<string>SGS LanSchool Student</string>

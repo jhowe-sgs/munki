@@ -6,9 +6,7 @@
 	<false/>
 	<key>catalogs</key>
 	<array>
-		<string>staff_client</string>
-		<string>student_client</string>
-		<string>faculty_client</string>
+		<string>sgs-catalog</string>
 	</array>
 	<key>description</key>
 	<string>Disable Notification Center</string>

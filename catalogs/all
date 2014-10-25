@@ -7,9 +7,7 @@
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>staff_client</string>
-			<string>faculty_client</string>
-			<string>student_client</string>
+			<string>sgs-catalog</string>
 		</array>
 		<key>description</key>
 		<string>Adobe AIR</string>
@@ -67,9 +65,7 @@
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>staff_client</string>
-			<string>student_client</string>
-			<string>faculty_client</string>
+			<string>sgs-catalog</string>
 		</array>
 		<key>description</key>
 		<string>Adobe Flash Player</string>
@@ -110,20 +106,18 @@
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>staff_client</string>
-			<string>faculty_client</string>
-			<string>student_client</string>
+			<string>sgs-catalog</string>
 		</array>
 		<key>description</key>
 		<string>Amazon Kindle App</string>
 		<key>display_name</key>
 		<string>Amazon Kindle App</string>
 		<key>installer_item_hash</key>
-		<string>6c733506c3e98c1caa4a0937b327d1126c4d9518e292492f9741c7e9eb916353</string>
+		<string>3dceeb145007b7eadd8e689a5b1d262fb698cb177b8df9c1974c073506c303fe</string>
 		<key>installer_item_location</key>
 		<string>apps/amazon/Kindle-1.10.6.dmg</string>
 		<key>installer_item_size</key>
-		<integer>47253</integer>
+		<integer>47208</integer>
 		<key>installer_type</key>
 		<string>copy_from_dmg</string>
 		<key>installs</key>
@@ -172,9 +166,63 @@
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>staff_client</string>
-			<string>faculty_client</string>
-			<string>student_client</string>
+			<string>sgs-catalog</string>
+		</array>
+		<key>description</key>
+		<string>Arduino IDE</string>
+		<key>display_name</key>
+		<string>Arduino IDE</string>
+		<key>installer_item_location</key>
+		<string>apps/arduino/Arduino-1.0.6.dmg</string>
+		<key>installer_item_size</key>
+		<integer>256020</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>cc.arduino.Arduino</string>
+				<key>CFBundleName</key>
+				<string>Arduino</string>
+				<key>CFBundleShortVersionString</key>
+				<string>1.0.6</string>
+				<key>CFBundleVersion</key>
+				<string>0106</string>
+				<key>path</key>
+				<string>/Applications/Arduino.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Arduino.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.4.0</string>
+		<key>name</key>
+		<string>Arduino</string>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>1.0.6</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>sgs-catalog</string>
 		</array>
 		<key>description</key>
 		<string>TextWrangler Programmers Editor</string>
@@ -236,9 +284,7 @@
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>staff_client</string>
-			<string>student_client</string>
-			<string>faculty_client</string>
+			<string>sgs-catalog</string>
 		</array>
 		<key>description</key>
 		<string>BlackMagic Desktop Video</string>
@@ -303,9 +349,7 @@
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>staff_client</string>
-			<string>student_client</string>
-			<string>faculty_client</string>
+			<string>sgs-catalog</string>
 		</array>
 		<key>description</key>
 		<string>Comic Life 3</string>
@@ -363,9 +407,7 @@
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>staff_client</string>
-			<string>student_client</string>
-			<string>faculty_client</string>
+			<string>sgs-catalog</string>
 		</array>
 		<key>description</key>
 		<string>Gapminder World</string>
@@ -425,9 +467,7 @@
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>staff_client</string>
-			<string>faculty_client</string>
-			<string>student_client</string>
+			<string>sgs-catalog</string>
 		</array>
 		<key>description</key>
 		<string>Web Browser from Google</string>
@@ -487,9 +527,7 @@
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>staff_client</string>
-			<string>student_client</string>
-			<string>faculty_client</string>
+			<string>sgs-catalog</string>
 		</array>
 		<key>description</key>
 		<string>Google Drive</string>
@@ -547,9 +585,7 @@
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>staff_client</string>
-			<string>student_client</string>
-			<string>faculty_client</string>
+			<string>sgs-catalog</string>
 		</array>
 		<key>description</key>
 		<string>Google Voice and Video</string>
@@ -598,9 +634,7 @@
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>staff_client</string>
-			<string>student_client</string>
-			<string>faculty_client</string>
+			<string>sgs-catalog</string>
 		</array>
 		<key>description</key>
 		<string>IPEVO Presenter</string>
@@ -660,7 +694,7 @@
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>student_client</string>
+			<string>sgs-catalog</string>
 		</array>
 		<key>description</key>
 		<string>SGS LanSchool Student</string>
@@ -701,7 +735,7 @@
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>faculty_client</string>
+			<string>sgs-catalog</string>
 		</array>
 		<key>description</key>
 		<string>LanSchool Teacher</string>
@@ -742,8 +776,7 @@
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>faculty_client</string>
-			<string>student_client</string>
+			<string>sgs-catalog</string>
 		</array>
 		<key>description</key>
 		<string>LEGO MINDSTORMS Education EV3</string>
@@ -816,9 +849,7 @@
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>faculty_client</string>
-			<string>staff_client</string>
-			<string>student_client</string>
+			<string>sgs-catalog</string>
 		</array>
 		<key>description</key>
 		<string>Microsoft Error Reporting for Mac</string>
@@ -861,9 +892,7 @@
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>staff_client</string>
-			<string>faculty_client</string>
-			<string>student_client</string>
+			<string>sgs-catalog</string>
 		</array>
 		<key>description</key>
 		<string>Office 2011 14.4.5 Update</string>
@@ -1312,9 +1341,7 @@
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>staff_client</string>
-			<string>faculty_client</string>
-			<string>student_client</string>
+			<string>sgs-catalog</string>
 		</array>
 		<key>description</key>
 		<string>Microsoft® Silverlight™ Browser Plug-In</string>
@@ -1357,9 +1384,7 @@
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>staff_client</string>
-			<string>student_client</string>
-			<string>faculty_client</string>
+			<string>sgs-catalog</string>
 		</array>
 		<key>description</key>
 		<string>Web browser from Mozilla</string>
@@ -1419,9 +1444,7 @@
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>staff_client</string>
-			<string>student_client</string>
-			<string>faculty_client</string>
+			<string>sgs-catalog</string>
 		</array>
 		<key>description</key>
 		<string>EMail Client from Mozilla</string>
@@ -1481,8 +1504,7 @@
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>staff_client</string>
-			<string>faculty_client</string>
+			<string>sgs-catalog</string>
 		</array>
 		<key>description</key>
 		<string>Skype</string>
@@ -1540,9 +1562,7 @@
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>staff_client</string>
-			<string>student_client</string>
-			<string>faculty_client</string>
+			<string>sgs-catalog</string>
 		</array>
 		<key>description</key>
 		<string>Flip Player</string>
@@ -1602,9 +1622,7 @@
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>staff_client</string>
-			<string>student_client</string>
-			<string>faculty_client</string>
+			<string>sgs-catalog</string>
 		</array>
 		<key>description</key>
 		<string>Flip4Mac</string>
@@ -1645,9 +1663,7 @@
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>staff_client</string>
-			<string>faculty_client</string>
-			<string>student_client</string>
+			<string>sgs-catalog</string>
 		</array>
 		<key>description</key>
 		<string>VLC Media Player</string>
@@ -1707,9 +1723,7 @@
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>staff_client</string>
-			<string>student_client</string>
-			<string>faculty_client</string>
+			<string>sgs-catalog</string>
 		</array>
 		<key>description</key>
 		<string>Disable DivX Updater</string>
@@ -1750,9 +1764,7 @@
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>staff_client</string>
-			<string>student_client</string>
-			<string>faculty_client</string>
+			<string>sgs-catalog</string>
 		</array>
 		<key>description</key>
 		<string>Disable Notification Center</string>
@@ -1810,9 +1822,7 @@
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>staff_client</string>
-			<string>student_client</string>
-			<string>faculty_client</string>
+			<string>sgs-catalog</string>
 		</array>
 		<key>description</key>
 		<string>Enable Java Webstart</string>
@@ -1853,9 +1863,7 @@
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>staff_client</string>
-			<string>student_client</string>
-			<string>faculty_client</string>
+			<string>sgs-catalog</string>
 		</array>
 		<key>description</key>
 		<string>Enable Notification Center</string>
@@ -1913,9 +1921,7 @@
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>staff_client</string>
-			<string>student_client</string>
-			<string>faculty_client</string>
+			<string>sgs-catalog</string>
 		</array>
 		<key>description</key>
 		<string>CHM Reader for Mac OS X</string>
@@ -1969,9 +1975,7 @@
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>staff_client</string>
-			<string>student_client</string>
-			<string>faculty_client</string>
+			<string>sgs-catalog</string>
 		</array>
 		<key>description</key>
 		<string>Java for OS X 2013-005</string>
@@ -2036,9 +2040,7 @@
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>student_client</string>
-			<string>staff_client</string>
-			<string>faculty_client</string>
+			<string>sgs-catalog</string>
 		</array>
 		<key>description</key>
 		<string>libdvdcss</string>
@@ -2079,9 +2081,7 @@
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>staff_client</string>
-			<string>student_client</string>
-			<string>faculty_client</string>
+			<string>sgs-catalog</string>
 		</array>
 		<key>description</key>
 		<string>License Comic Life 3</string>
@@ -2122,9 +2122,7 @@
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>staff_client</string>
-			<string>student_client</string>
-			<string>faculty_client</string>
+			<string>sgs-catalog</string>
 		</array>
 		<key>description</key>
 		<string>Utility to Rename a List of Files Quickly</string>
@@ -2180,9 +2178,7 @@
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>staff_client</string>
-			<string>student_client</string>
-			<string>faculty_client</string>
+			<string>sgs-catalog</string>
 		</array>
 		<key>description</key>
 		<string>PlotDigitizer</string>
@@ -2240,9 +2236,7 @@
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>staff_client</string>
-			<string>student_client</string>
-			<string>faculty_client</string>
+			<string>sgs-catalog</string>
 		</array>
 		<key>description</key>
 		<string>QuickTime Player 7</string>
@@ -2283,9 +2277,7 @@
 		<false/>
 		<key>catalogs</key>
 		<array>
-			<string>staff_client</string>
-			<string>student_client</string>
-			<string>faculty_client</string>
+			<string>sgs-catalog</string>
 		</array>
 		<key>description</key>
 		<string>XRG Utility</string>

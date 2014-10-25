@@ -2,6 +2,17 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>_metadata</key>
+	<dict>
+		<key>created_by</key>
+		<string>root</string>
+		<key>creation_date</key>
+		<date>2014-10-24T17:04:49Z</date>
+		<key>munki_version</key>
+		<string>1.0.0.1864</string>
+		<key>os_version</key>
+		<string>10.9.5</string>
+	</dict>
 	<key>autoremove</key>
 	<false/>
 	<key>catalogs</key>
@@ -9,30 +20,28 @@
 		<string>sgs-catalog</string>
 	</array>
 	<key>description</key>
-	<string>Skype</string>
+	<string>Arduino IDE</string>
 	<key>display_name</key>
-	<string>Skype</string>
-	<key>installer_item_hash</key>
-	<string>1939062edb533d21bef6c55961d7d75ce649ffdbd3e7f7aa9b9c0da8d1494948</string>
+	<string>Arduino IDE</string>
 	<key>installer_item_location</key>
-	<string>apps/skype/Skype_6.15.60.330.dmg</string>
+	<string>apps/arduino/Arduino-1.0.6.dmg</string>
 	<key>installer_item_size</key>
-	<integer>42495</integer>
+	<integer>256020</integer>
 	<key>installer_type</key>
 	<string>copy_from_dmg</string>
 	<key>installs</key>
 	<array>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.skype.skype</string>
+			<string>cc.arduino.Arduino</string>
+			<key>CFBundleName</key>
+			<string>Arduino</string>
 			<key>CFBundleShortVersionString</key>
-			<string>6.15</string>
+			<string>1.0.6</string>
 			<key>CFBundleVersion</key>
-			<string>6.15.60.330</string>
-			<key>minosversion</key>
-			<string>10.6.0</string>
+			<string>0106</string>
 			<key>path</key>
-			<string>/Applications/Skype.app</string>
+			<string>/Applications/Arduino.app</string>
 			<key>type</key>
 			<string>application</string>
 			<key>version_comparison_key</key>
@@ -45,18 +54,18 @@
 			<key>destination_path</key>
 			<string>/Applications</string>
 			<key>source_item</key>
-			<string>Skype.app</string>
+			<string>Arduino.app</string>
 		</dict>
 	</array>
 	<key>minimum_os_version</key>
-	<string>10.6.0</string>
+	<string>10.4.0</string>
 	<key>name</key>
-	<string>Skype</string>
+	<string>Arduino</string>
 	<key>uninstall_method</key>
 	<string>remove_copied_items</string>
 	<key>uninstallable</key>
 	<true/>
 	<key>version</key>
-	<string>6.15.60.330</string>
+	<string>1.0.6</string>
 </dict>
 </plist>

@@ -4,7 +4,7 @@
 <dict>
 	<key>catalogs</key>
 	<array>
-		<string>faculty_client</string>
+		<string>sgs-catalog</string>
 	</array>
 	<key>included_manifests</key>
 	<array>
@@ -21,7 +21,8 @@
 		<string>Silverlight</string>
 		<string>libdvdcss</string>
 		<string>TextWrangler</string>
-		<string>Amazon Kindle App</string>
+		<string>Kindle</string>
+		<string>Arduino</string>
 	</array>
 	<key>managed_uninstalls</key>
 	<array>
