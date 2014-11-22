@@ -7,7 +7,7 @@
 		<key>created_by</key>
 		<string>root</string>
 		<key>creation_date</key>
-		<date>2014-10-18T02:18:51Z</date>
+		<date>2014-11-19T23:12:04Z</date>
 		<key>munki_version</key>
 		<string>1.0.0.1864</string>
 		<key>os_version</key>
@@ -24,11 +24,11 @@
 	<key>display_name</key>
 	<string>Amazon Kindle App</string>
 	<key>installer_item_hash</key>
-	<string>3dceeb145007b7eadd8e689a5b1d262fb698cb177b8df9c1974c073506c303fe</string>
+	<string>0ec2a53fe93d446fde85b035721921c4889d38c7e5d529c2d44d9c334613d78b</string>
 	<key>installer_item_location</key>
-	<string>apps/amazon/Kindle-1.10.6.dmg</string>
+	<string>apps/amazon/Kindle-1.10.6__1.dmg</string>
 	<key>installer_item_size</key>
-	<integer>47208</integer>
+	<integer>47257</integer>
 	<key>installer_type</key>
 	<string>copy_from_dmg</string>
 	<key>installs</key>
@@ -62,7 +62,7 @@
 		</dict>
 	</array>
 	<key>minimum_os_version</key>
-	<string>10.6</string>
+	<string>10.9.5</string>
 	<key>name</key>
 	<string>Kindle</string>
 	<key>uninstall_method</key>

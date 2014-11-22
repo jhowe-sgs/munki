@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>_metadata</key>
+	<dict>
+		<key>created_by</key>
+		<string>root</string>
+		<key>creation_date</key>
+		<date>2014-11-12T00:14:23Z</date>
+		<key>munki_version</key>
+		<string>1.0.0.1864</string>
+		<key>os_version</key>
+		<string>10.9.5</string>
+	</dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>sgs-catalog</string>
+	</array>
+	<key>description</key>
+	<string>DisableGateKeeper</string>
+	<key>display_name</key>
+	<string>DisableGateKeeper</string>
+	<key>installed_size</key>
+	<integer>352</integer>
+	<key>installer_item_hash</key>
+	<string>706e39b8b71628ec6c4e389c2f2d6d6a4c140446c801d196588174654c1521a4</string>
+	<key>installer_item_location</key>
+	<string>utilities/DisableGateKeeper-2014111101.pkg</string>
+	<key>installer_item_size</key>
+	<integer>242</integer>
+	<key>minimum_os_version</key>
+	<string>10.9.5</string>
+	<key>name</key>
+	<string>DisableGateKeeper</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>installed_size</key>
+			<integer>352</integer>
+			<key>packageid</key>
+			<string>org.seattlegirlsschool.disable_gatekeeper</string>
+			<key>version</key>
+			<string>2014111101</string>
+		</dict>
+	</array>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>2014111101</string>
+</dict>
+</plist>
