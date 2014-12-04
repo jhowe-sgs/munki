@@ -21,7 +21,6 @@
 		<string>Silverlight</string>
 		<string>libdvdcss</string>
 		<string>TextWrangler</string>
-		<string>Kindle</string>
 		<string>DisableGateKeeper</string>
 	</array>
 	<key>managed_uninstalls</key>

@@ -21,9 +21,10 @@
 		<string>Silverlight</string>
 		<string>libdvdcss</string>
 		<string>TextWrangler</string>
-		<string>Kindle</string>
 		<string>Arduino</string>
 		<string>DisableGateKeeper</string>
+		<string>PyCharm</string>
+		<string>RStudio</string>
 	</array>
 	<key>managed_uninstalls</key>
 	<array>

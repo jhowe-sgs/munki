@@ -7,7 +7,7 @@
 		<key>created_by</key>
 		<string>root</string>
 		<key>creation_date</key>
-		<date>2014-10-15T21:24:25Z</date>
+		<date>2014-12-04T20:09:42Z</date>
 		<key>munki_version</key>
 		<string>1.0.0.1864</string>
 		<key>os_version</key>
@@ -20,30 +20,38 @@
 		<string>sgs-catalog</string>
 	</array>
 	<key>description</key>
-	<string>Adobe Flash Player</string>
+	<string>Google Voice and Video</string>
 	<key>display_name</key>
-	<string>Adobe Flash Player</string>
+	<string>Google Voice and Video</string>
 	<key>installed_size</key>
-	<integer>16056</integer>
+	<integer>17946</integer>
 	<key>installer_item_hash</key>
-	<string>d8722f8aaee1f8cfd1283cdf3b5c7fddab17427b111d9640a4f6b413c9920140</string>
+	<string>919c8ddc90765f67872a78b2f32d9b8ef0e7aeee880b00e351d2b3524dc010aa</string>
 	<key>installer_item_location</key>
-	<string>apps/adobe/Install Adobe Flash Player-15.0.0.189.pkg</string>
+	<string>apps/google/GoogleVoiceAndVideoSetup-5.4.2.18903.dmg</string>
 	<key>installer_item_size</key>
-	<integer>14800</integer>
+	<integer>9028</integer>
 	<key>minimum_os_version</key>
 	<string>10.5.0</string>
 	<key>name</key>
-	<string>Adobe Flash Player</string>
+	<string>Google Voice and Video</string>
 	<key>receipts</key>
 	<array>
 		<dict>
 			<key>installed_size</key>
-			<integer>16056</integer>
+			<integer>0</integer>
 			<key>packageid</key>
-			<string>com.adobe.pkg.FlashPlayer</string>
+			<string>com.google.pkg.Keystone</string>
 			<key>version</key>
-			<string>15.0.0.189</string>
+			<string>1.1.0.3659</string>
+		</dict>
+		<dict>
+			<key>installed_size</key>
+			<integer>17946</integer>
+			<key>packageid</key>
+			<string>com.google.pkg.GoogleVoiceAndVideo</string>
+			<key>version</key>
+			<string>5.4.2.18903</string>
 		</dict>
 	</array>
 	<key>uninstall_method</key>
@@ -51,6 +59,6 @@
 	<key>uninstallable</key>
 	<true/>
 	<key>version</key>
-	<string>15.0.0.189</string>
+	<string>5.4.2.18903</string>
 </dict>
 </plist>

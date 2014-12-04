@@ -2,6 +2,17 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>_metadata</key>
+	<dict>
+		<key>created_by</key>
+		<string>root</string>
+		<key>creation_date</key>
+		<date>2014-12-04T20:08:20Z</date>
+		<key>munki_version</key>
+		<string>1.0.0.1864</string>
+		<key>os_version</key>
+		<string>10.9.5</string>
+	</dict>
 	<key>autoremove</key>
 	<false/>
 	<key>catalogs</key>
@@ -9,38 +20,30 @@
 		<string>sgs-catalog</string>
 	</array>
 	<key>description</key>
-	<string>Google Voice and Video</string>
+	<string>Adobe Flash Player</string>
 	<key>display_name</key>
-	<string>Google Voice and Video</string>
+	<string>Adobe Flash Player</string>
 	<key>installed_size</key>
-	<integer>35475</integer>
+	<integer>16063</integer>
 	<key>installer_item_hash</key>
-	<string>5bebc0cfcde9f6e582fb82dacee29a0f8275cabcf7615b2a6f335827e00663e7</string>
+	<string>f683298cd3848ba6b1b4c8f5a6765effd1c7ea6836d5ca9a45e69d747c22d782</string>
 	<key>installer_item_location</key>
-	<string>apps/google/GoogleVoiceAndVideoSetup-4.9.1.16010.dmg</string>
+	<string>apps/adobe/Install Adobe Flash Player-15.0.0.239.pkg</string>
 	<key>installer_item_size</key>
-	<integer>13791</integer>
+	<integer>14811</integer>
 	<key>minimum_os_version</key>
 	<string>10.5.0</string>
 	<key>name</key>
-	<string>Google Voice and Video</string>
+	<string>Adobe Flash Player</string>
 	<key>receipts</key>
 	<array>
 		<dict>
 			<key>installed_size</key>
-			<integer>0</integer>
+			<integer>16063</integer>
 			<key>packageid</key>
-			<string>com.google.pkg.Keystone</string>
+			<string>com.adobe.pkg.FlashPlayer</string>
 			<key>version</key>
-			<string>1.1.0.3659</string>
-		</dict>
-		<dict>
-			<key>installed_size</key>
-			<integer>35475</integer>
-			<key>packageid</key>
-			<string>com.google.pkg.GoogleVoiceAndVideo</string>
-			<key>version</key>
-			<string>4.9.1.16010</string>
+			<string>15.0.0.239</string>
 		</dict>
 	</array>
 	<key>uninstall_method</key>
@@ -48,6 +51,6 @@
 	<key>uninstallable</key>
 	<true/>
 	<key>version</key>
-	<string>4.9.1.16010</string>
+	<string>15.0.0.239</string>
 </dict>
 </plist>

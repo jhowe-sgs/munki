@@ -7,7 +7,7 @@
 		<key>created_by</key>
 		<string>root</string>
 		<key>creation_date</key>
-		<date>2014-11-19T02:55:27Z</date>
+		<date>2014-12-04T20:05:00Z</date>
 		<key>munki_version</key>
 		<string>1.0.0.1864</string>
 		<key>os_version</key>
@@ -20,32 +20,32 @@
 		<string>sgs-catalog</string>
 	</array>
 	<key>description</key>
-	<string>Web Browser from Google</string>
+	<string>Web browser from Mozilla</string>
 	<key>display_name</key>
-	<string>Google Chrome</string>
+	<string>Mozilla Firefox</string>
 	<key>installer_item_hash</key>
-	<string>00a312cbaf4b9995d6c0b4a72e993cdd91835e030f364a3ca9bc3e1f5b6f0cff</string>
+	<string>588d1265248f9d6f36ac809ecde43d46b5bc3f00b4890a84d7b0a42b503a5be8</string>
 	<key>installer_item_location</key>
-	<string>apps/google/googlechrome-39.0.2171.65.dmg</string>
+	<string>apps/mozilla/Firefox 31.3.0esr-31.3.0.dmg</string>
 	<key>installer_item_size</key>
-	<integer>65225</integer>
+	<integer>61519</integer>
 	<key>installer_type</key>
 	<string>copy_from_dmg</string>
 	<key>installs</key>
 	<array>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.google.Chrome</string>
+			<string>org.mozilla.firefox</string>
 			<key>CFBundleName</key>
-			<string>Chrome</string>
+			<string>Firefox</string>
 			<key>CFBundleShortVersionString</key>
-			<string>39.0.2171.65</string>
+			<string>31.3.0</string>
 			<key>CFBundleVersion</key>
-			<string>2171.65</string>
+			<string>3114.11.25</string>
 			<key>minosversion</key>
-			<string>10.6.0</string>
+			<string>10.6</string>
 			<key>path</key>
-			<string>/Applications/Google Chrome.app</string>
+			<string>/Applications/Firefox.app</string>
 			<key>type</key>
 			<string>application</string>
 			<key>version_comparison_key</key>
@@ -58,18 +58,18 @@
 			<key>destination_path</key>
 			<string>/Applications</string>
 			<key>source_item</key>
-			<string>Google Chrome.app</string>
+			<string>Firefox.app</string>
 		</dict>
 	</array>
 	<key>minimum_os_version</key>
-	<string>10.6.0</string>
+	<string>10.6</string>
 	<key>name</key>
-	<string>Chrome</string>
+	<string>Firefox</string>
 	<key>uninstall_method</key>
 	<string>remove_copied_items</string>
 	<key>uninstallable</key>
 	<true/>
 	<key>version</key>
-	<string>39.0.2171.65</string>
+	<string>31.3.0</string>
 </dict>
 </plist>

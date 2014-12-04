@@ -72,13 +72,13 @@
 		<key>display_name</key>
 		<string>Adobe Flash Player</string>
 		<key>installed_size</key>
-		<integer>16056</integer>
+		<integer>16063</integer>
 		<key>installer_item_hash</key>
-		<string>d8722f8aaee1f8cfd1283cdf3b5c7fddab17427b111d9640a4f6b413c9920140</string>
+		<string>f683298cd3848ba6b1b4c8f5a6765effd1c7ea6836d5ca9a45e69d747c22d782</string>
 		<key>installer_item_location</key>
-		<string>apps/adobe/Install Adobe Flash Player-15.0.0.189.pkg</string>
+		<string>apps/adobe/Install Adobe Flash Player-15.0.0.239.pkg</string>
 		<key>installer_item_size</key>
-		<integer>14800</integer>
+		<integer>14811</integer>
 		<key>minimum_os_version</key>
 		<string>10.5.0</string>
 		<key>name</key>
@@ -87,11 +87,11 @@
 		<array>
 			<dict>
 				<key>installed_size</key>
-				<integer>16056</integer>
+				<integer>16063</integer>
 				<key>packageid</key>
 				<string>com.adobe.pkg.FlashPlayer</string>
 				<key>version</key>
-				<string>15.0.0.189</string>
+				<string>15.0.0.239</string>
 			</dict>
 		</array>
 		<key>uninstall_method</key>
@@ -99,7 +99,7 @@
 		<key>uninstallable</key>
 		<true/>
 		<key>version</key>
-		<string>15.0.0.189</string>
+		<string>15.0.0.239</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -276,6 +276,73 @@
 		<true/>
 		<key>version</key>
 		<string>4.5.10</string>
+	</dict>
+	<dict>
+		<key>RestartAction</key>
+		<string>RequireRestart</string>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>sgs-catalog</string>
+		</array>
+		<key>description</key>
+		<string>BlackMagic Desktop Video</string>
+		<key>display_name</key>
+		<string>BlackMagic Desktop Video</string>
+		<key>installed_size</key>
+		<integer>257990</integer>
+		<key>installer_item_hash</key>
+		<string>afda7d96ca63f1e758747d2f3b46dbbe39ce7bc6e4b379e947395aeb08b71126</string>
+		<key>installer_item_location</key>
+		<string>apps/blackmagic/DesktopVideo_10.3.2.dmg</string>
+		<key>installer_item_size</key>
+		<integer>98023</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>BlackMagic Desktop Video</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>175665</integer>
+				<key>packageid</key>
+				<string>com.blackmagic-design.DesktopVideo</string>
+				<key>version</key>
+				<string>10.3.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>41173</integer>
+				<key>packageid</key>
+				<string>com.blackmagic-design.DiskSpeedTest</string>
+				<key>version</key>
+				<string>2.2.1</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>40880</integer>
+				<key>packageid</key>
+				<string>com.blackmagic-design.MediaExpress</string>
+				<key>version</key>
+				<string>3.3.2</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>272</integer>
+				<key>packageid</key>
+				<string>com.apple.uncompressed422.Uncompressed422.pkg</string>
+				<key>version</key>
+				<string>1.6.1</string>
+			</dict>
+		</array>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>10.3.2</string>
 	</dict>
 	<dict>
 		<key>RestartAction</key>
@@ -474,11 +541,11 @@
 		<key>display_name</key>
 		<string>Google Chrome</string>
 		<key>installer_item_hash</key>
-		<string>00a312cbaf4b9995d6c0b4a72e993cdd91835e030f364a3ca9bc3e1f5b6f0cff</string>
+		<string>869af5b93dc553f9f18bc8309cbf264a322f5b5ec494119214d8b38d17921d4a</string>
 		<key>installer_item_location</key>
-		<string>apps/google/googlechrome-39.0.2171.65.dmg</string>
+		<string>apps/google/googlechrome-39.0.2171.71.dmg</string>
 		<key>installer_item_size</key>
-		<integer>65225</integer>
+		<integer>65221</integer>
 		<key>installer_type</key>
 		<string>copy_from_dmg</string>
 		<key>installs</key>
@@ -489,9 +556,9 @@
 				<key>CFBundleName</key>
 				<string>Chrome</string>
 				<key>CFBundleShortVersionString</key>
-				<string>39.0.2171.65</string>
+				<string>39.0.2171.71</string>
 				<key>CFBundleVersion</key>
-				<string>2171.65</string>
+				<string>2171.71</string>
 				<key>minosversion</key>
 				<string>10.6.0</string>
 				<key>path</key>
@@ -520,7 +587,7 @@
 		<key>uninstallable</key>
 		<true/>
 		<key>version</key>
-		<string>39.0.2171.65</string>
+		<string>39.0.2171.71</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -534,11 +601,11 @@
 		<key>display_name</key>
 		<string>Google Drive</string>
 		<key>installer_item_hash</key>
-		<string>a8ac3dd767b6709fbb16876af6f62b4e9c49c93699cae497a1538ed69431d757</string>
+		<string>0bdc9ebe8943a621ef4822a00eb755b6e12cea9788ed69550d780ba4f5ac666c</string>
 		<key>installer_item_location</key>
-		<string>apps/google/installgoogledrive-1.14.dmg</string>
+		<string>apps/google/installgoogledrive-1.18.dmg</string>
 		<key>installer_item_size</key>
-		<integer>25341</integer>
+		<integer>27456</integer>
 		<key>installer_type</key>
 		<string>copy_from_dmg</string>
 		<key>installs</key>
@@ -549,9 +616,9 @@
 				<key>CFBundleName</key>
 				<string>Google Drive</string>
 				<key>CFBundleShortVersionString</key>
-				<string>1.14</string>
+				<string>1.18</string>
 				<key>CFBundleVersion</key>
-				<string>1.14.6059.0644</string>
+				<string>1.18.7821.2489</string>
 				<key>path</key>
 				<string>/Applications/Google Drive.app</string>
 				<key>type</key>
@@ -578,7 +645,7 @@
 		<key>uninstallable</key>
 		<true/>
 		<key>version</key>
-		<string>1.14</string>
+		<string>1.18</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -592,13 +659,13 @@
 		<key>display_name</key>
 		<string>Google Voice and Video</string>
 		<key>installed_size</key>
-		<integer>35475</integer>
+		<integer>17946</integer>
 		<key>installer_item_hash</key>
-		<string>5bebc0cfcde9f6e582fb82dacee29a0f8275cabcf7615b2a6f335827e00663e7</string>
+		<string>919c8ddc90765f67872a78b2f32d9b8ef0e7aeee880b00e351d2b3524dc010aa</string>
 		<key>installer_item_location</key>
-		<string>apps/google/GoogleVoiceAndVideoSetup-4.9.1.16010.dmg</string>
+		<string>apps/google/GoogleVoiceAndVideoSetup-5.4.2.18903.dmg</string>
 		<key>installer_item_size</key>
-		<integer>13791</integer>
+		<integer>9028</integer>
 		<key>minimum_os_version</key>
 		<string>10.5.0</string>
 		<key>name</key>
@@ -615,11 +682,11 @@
 			</dict>
 			<dict>
 				<key>installed_size</key>
-				<integer>35475</integer>
+				<integer>17946</integer>
 				<key>packageid</key>
 				<string>com.google.pkg.GoogleVoiceAndVideo</string>
 				<key>version</key>
-				<string>4.9.1.16010</string>
+				<string>5.4.2.18903</string>
 			</dict>
 		</array>
 		<key>uninstall_method</key>
@@ -627,7 +694,7 @@
 		<key>uninstallable</key>
 		<true/>
 		<key>version</key>
-		<string>4.9.1.16010</string>
+		<string>5.4.2.18903</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -688,6 +755,126 @@
 		<true/>
 		<key>version</key>
 		<string>2.5</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>sgs-catalog</string>
+		</array>
+		<key>description</key>
+		<string>IPEVO Presenter</string>
+		<key>display_name</key>
+		<string>IPEVO Presenter</string>
+		<key>installer_item_hash</key>
+		<string>00820aa3f67e317f032c58acf614df72fac20979eba248b9e423e583ab7a94f7</string>
+		<key>installer_item_location</key>
+		<string>apps/ipevo/Presenter-3.1.dmg</string>
+		<key>installer_item_size</key>
+		<integer>2213</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.ipevo.Presenter</string>
+				<key>CFBundleName</key>
+				<string>Presenter</string>
+				<key>CFBundleShortVersionString</key>
+				<string>3.1</string>
+				<key>CFBundleVersion</key>
+				<string>10256</string>
+				<key>minosversion</key>
+				<string>10.8</string>
+				<key>path</key>
+				<string>/Applications/Presenter.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Presenter.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.8</string>
+		<key>name</key>
+		<string>IPEVO Presenter</string>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>3.1</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>sgs-catalog</string>
+		</array>
+		<key>description</key>
+		<string>PyCharm Python IDE</string>
+		<key>display_name</key>
+		<string>PyCharm</string>
+		<key>installer_item_hash</key>
+		<string>a2b4c0b95a1ca5d4ce485e36de7f4cde2ee8efe359e2a45af17a04de8c2a3290</string>
+		<key>installer_item_location</key>
+		<string>apps/jetbrains/pycharm-community-4.0.1.dmg</string>
+		<key>installer_item_size</key>
+		<integer>109692</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.jetbrains.pycharm</string>
+				<key>CFBundleName</key>
+				<string>PyCharm</string>
+				<key>CFBundleShortVersionString</key>
+				<string>4.0.1</string>
+				<key>CFBundleVersion</key>
+				<string>PC-139.574</string>
+				<key>minosversion</key>
+				<string>10.6</string>
+				<key>path</key>
+				<string>/Applications/PyCharm CE.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>PyCharm CE.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.6</string>
+		<key>name</key>
+		<string>PyCharm</string>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>4.0.1</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -1464,11 +1651,11 @@
 		<key>display_name</key>
 		<string>Mozilla Firefox</string>
 		<key>installer_item_hash</key>
-		<string>6c3bb1957126a49fb0f4fb56bf19e8501e1990bd6ef749100091f643fb749fba</string>
+		<string>588d1265248f9d6f36ac809ecde43d46b5bc3f00b4890a84d7b0a42b503a5be8</string>
 		<key>installer_item_location</key>
-		<string>apps/mozilla/Firefox 31.2.0esr-31.2.0.dmg</string>
+		<string>apps/mozilla/Firefox 31.3.0esr-31.3.0.dmg</string>
 		<key>installer_item_size</key>
-		<integer>61505</integer>
+		<integer>61519</integer>
 		<key>installer_type</key>
 		<string>copy_from_dmg</string>
 		<key>installs</key>
@@ -1479,9 +1666,9 @@
 				<key>CFBundleName</key>
 				<string>Firefox</string>
 				<key>CFBundleShortVersionString</key>
-				<string>31.2.0</string>
+				<string>31.3.0</string>
 				<key>CFBundleVersion</key>
-				<string>3114.10.11</string>
+				<string>3114.11.25</string>
 				<key>minosversion</key>
 				<string>10.6</string>
 				<key>path</key>
@@ -1510,7 +1697,7 @@
 		<key>uninstallable</key>
 		<true/>
 		<key>version</key>
-		<string>31.2.0</string>
+		<string>31.3.0</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -1524,9 +1711,9 @@
 		<key>display_name</key>
 		<string>Mozilla Thunderbird</string>
 		<key>installer_item_hash</key>
-		<string>4d6a9bedacda5e31ae40c2dfc6885fffa9283b052f25507313b25d87bb83daca</string>
+		<string>b420b7b04cde0c57645bf2ae0f8b9fc507e854f82690b26551a54c17518885a6</string>
 		<key>installer_item_location</key>
-		<string>apps/mozilla/Thunderbird 31.2.0.dmg</string>
+		<string>apps/mozilla/Thunderbird 31.3.0.dmg</string>
 		<key>installer_item_size</key>
 		<integer>52232</integer>
 		<key>installer_type</key>
@@ -1539,9 +1726,9 @@
 				<key>CFBundleName</key>
 				<string>Thunderbird</string>
 				<key>CFBundleShortVersionString</key>
-				<string>31.2.0</string>
+				<string>31.3.0</string>
 				<key>CFBundleVersion</key>
-				<string>31.2.0</string>
+				<string>31.3.0</string>
 				<key>minosversion</key>
 				<string>10.6.0</string>
 				<key>path</key>
@@ -1570,7 +1757,67 @@
 		<key>uninstallable</key>
 		<true/>
 		<key>version</key>
-		<string>31.2.0</string>
+		<string>31.3.0</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>sgs-catalog</string>
+		</array>
+		<key>description</key>
+		<string>RStudio IDE for R</string>
+		<key>display_name</key>
+		<string>RStudio</string>
+		<key>installer_item_hash</key>
+		<string>ea8baebe66903312bb84816669711b11f0dcd377a6f8c1c4c9f4c669ebd3dc18</string>
+		<key>installer_item_location</key>
+		<string>apps/rstudio/RStudio-0.98.1091.dmg</string>
+		<key>installer_item_size</key>
+		<integer>39337</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>org.rstudio.RStudio</string>
+				<key>CFBundleName</key>
+				<string>RStudio</string>
+				<key>CFBundleShortVersionString</key>
+				<string>0.98.1091</string>
+				<key>CFBundleVersion</key>
+				<string>0.98.1091</string>
+				<key>minosversion</key>
+				<string>10.6.0</string>
+				<key>path</key>
+				<string>/Applications/RStudio.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>RStudio.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.6.0</string>
+		<key>name</key>
+		<string>RStudio</string>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>0.98.1091</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
