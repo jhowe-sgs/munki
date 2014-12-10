@@ -22,6 +22,15 @@
 		<string>libdvdcss</string>
 		<string>TextWrangler</string>
 		<string>DisableGateKeeper</string>
+		<string>Final Cut Pro</string>
+		<string>GarageBand</string>
+		<string>Xcode</string>
+		<string>iMovie</string>
+		<string>Keynote</string>
+		<string>Numbers</string>
+		<string>Pages</string>
+		<string>Pixelmator</string>
+		<string>OneDrive</string>
 	</array>
 	<key>managed_uninstalls</key>
 	<array>
