@@ -25,6 +25,21 @@
 		<string>DisableGateKeeper</string>
 		<string>PyCharm</string>
 		<string>RStudio</string>
+                <string>Final Cut Pro</string>
+                <string>iMovie</string>
+                <string>Keynote</string>
+                <string>Numbers</string>
+                <string>Pages</string>
+                <string>Pixelmator</string>
+                <string>OneDrive</string>
+                <string>Disable_PCClient</string>
+                <string>Remove_Battery_Health</string>
+                <string>Remove_GSP5</string>
+                <string>Remove_KeyCastr</string>
+                <string>Remove_Kindle</string>
+                <string>Remove_SourceTree</string>
+                <string>IPEVO Presenter</string>
+                <string>GarageBand</string>
 	</array>
 	<key>managed_uninstalls</key>
 	<array>
