@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>_metadata</key>
+	<dict>
+		<key>created_by</key>
+		<string>root</string>
+		<key>creation_date</key>
+		<date>2014-12-10T22:37:25Z</date>
+		<key>munki_version</key>
+		<string>1.0.0.1864</string>
+		<key>os_version</key>
+		<string>10.9.5</string>
+	</dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>sgs-catalog</string>
+	</array>
+	<key>description</key>
+	<string>Remove_SourceTree</string>
+	<key>display_name</key>
+	<string>Remove_SourceTree</string>
+	<key>installed_size</key>
+	<integer>352</integer>
+	<key>installer_item_hash</key>
+	<string>84841a57bd12bdbe8c5283276eb206a2f84e4b53d2994d8a57077e88826523d3</string>
+	<key>installer_item_location</key>
+	<string>utilities/Remove_SourceTree-2014121001.pkg</string>
+	<key>installer_item_size</key>
+	<integer>241</integer>
+	<key>minimum_os_version</key>
+	<string>10.5.0</string>
+	<key>name</key>
+	<string>Remove_SourceTree</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>installed_size</key>
+			<integer>352</integer>
+			<key>packageid</key>
+			<string>org.seattlegirlsschool.remove-sourcetree</string>
+			<key>version</key>
+			<string>2014121001</string>
+		</dict>
+	</array>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>2014121001</string>
+</dict>
+</plist>

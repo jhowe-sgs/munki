@@ -23,14 +23,21 @@
 		<string>TextWrangler</string>
 		<string>DisableGateKeeper</string>
 		<string>Final Cut Pro</string>
-		<string>GarageBand</string>
-		<string>Xcode</string>
 		<string>iMovie</string>
 		<string>Keynote</string>
 		<string>Numbers</string>
 		<string>Pages</string>
 		<string>Pixelmator</string>
 		<string>OneDrive</string>
+		<string>Disable_PCClient</string>
+		<string>Remove_Battery_Health</string>
+		<string>Remove_GSP5</string>
+		<string>Remove_KeyCastr</string>
+		<string>Remove_Kindle</string>
+		<string>Remove_SourceTree</string>
+		<string>Presenter</string>
+		<string>GarageBand</string>
+		<string>Xcode</string>
 	</array>
 	<key>managed_uninstalls</key>
 	<array>
