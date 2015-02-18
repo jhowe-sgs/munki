@@ -61,6 +61,8 @@
 		<string>15.0</string>
 	</dict>
 	<dict>
+		<key>RestartAction</key>
+		<string>RequireLogout</string>
 		<key>autoremove</key>
 		<false/>
 		<key>catalogs</key>
@@ -71,14 +73,16 @@
 		<string>Adobe Flash Player</string>
 		<key>display_name</key>
 		<string>Adobe Flash Player</string>
+		<key>force_install_after_date</key>
+		<date>2015-02-06T14:00:00Z</date>
 		<key>installed_size</key>
-		<integer>16063</integer>
+		<integer>16071</integer>
 		<key>installer_item_hash</key>
-		<string>f683298cd3848ba6b1b4c8f5a6765effd1c7ea6836d5ca9a45e69d747c22d782</string>
+		<string>f2d51168456b5f78aab8b3fec355bee7cbd4a64073cf0bd69f91eb33d60998ac</string>
 		<key>installer_item_location</key>
-		<string>apps/adobe/Install Adobe Flash Player-15.0.0.239.pkg</string>
+		<string>apps/adobe/Install Adobe Flash Player-16.0.0.305.pkg</string>
 		<key>installer_item_size</key>
-		<integer>14811</integer>
+		<integer>14818</integer>
 		<key>minimum_os_version</key>
 		<string>10.5.0</string>
 		<key>name</key>
@@ -87,11 +91,11 @@
 		<array>
 			<dict>
 				<key>installed_size</key>
-				<integer>16063</integer>
+				<integer>16071</integer>
 				<key>packageid</key>
 				<string>com.adobe.pkg.FlashPlayer</string>
 				<key>version</key>
-				<string>15.0.0.239</string>
+				<string>16.0.0.305</string>
 			</dict>
 		</array>
 		<key>uninstall_method</key>
@@ -99,67 +103,7 @@
 		<key>uninstallable</key>
 		<true/>
 		<key>version</key>
-		<string>15.0.0.239</string>
-	</dict>
-	<dict>
-		<key>autoremove</key>
-		<false/>
-		<key>catalogs</key>
-		<array>
-			<string>sgs-catalog</string>
-		</array>
-		<key>description</key>
-		<string>Amazon Kindle App</string>
-		<key>display_name</key>
-		<string>Amazon Kindle App</string>
-		<key>installer_item_hash</key>
-		<string>0ec2a53fe93d446fde85b035721921c4889d38c7e5d529c2d44d9c334613d78b</string>
-		<key>installer_item_location</key>
-		<string>apps/amazon/Kindle-1.10.6__1.dmg</string>
-		<key>installer_item_size</key>
-		<integer>47257</integer>
-		<key>installer_type</key>
-		<string>copy_from_dmg</string>
-		<key>installs</key>
-		<array>
-			<dict>
-				<key>CFBundleIdentifier</key>
-				<string>com.amazon.Kindle</string>
-				<key>CFBundleName</key>
-				<string>Kindle</string>
-				<key>CFBundleShortVersionString</key>
-				<string>1.10.6</string>
-				<key>CFBundleVersion</key>
-				<string>1.10.40499</string>
-				<key>minosversion</key>
-				<string>10.6</string>
-				<key>path</key>
-				<string>/Applications/Kindle.app</string>
-				<key>type</key>
-				<string>application</string>
-				<key>version_comparison_key</key>
-				<string>CFBundleShortVersionString</string>
-			</dict>
-		</array>
-		<key>items_to_copy</key>
-		<array>
-			<dict>
-				<key>destination_path</key>
-				<string>/Applications</string>
-				<key>source_item</key>
-				<string>Kindle.app</string>
-			</dict>
-		</array>
-		<key>minimum_os_version</key>
-		<string>10.9.5</string>
-		<key>name</key>
-		<string>Kindle</string>
-		<key>uninstall_method</key>
-		<string>remove_copied_items</string>
-		<key>uninstallable</key>
-		<true/>
-		<key>version</key>
-		<string>1.10.6</string>
+		<string>16.0.0.305</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -765,73 +709,6 @@
 		<string>10.3.2</string>
 	</dict>
 	<dict>
-		<key>RestartAction</key>
-		<string>RequireRestart</string>
-		<key>autoremove</key>
-		<false/>
-		<key>catalogs</key>
-		<array>
-			<string>sgs-catalog</string>
-		</array>
-		<key>description</key>
-		<string>BlackMagic Desktop Video</string>
-		<key>display_name</key>
-		<string>BlackMagic Desktop Video</string>
-		<key>installed_size</key>
-		<integer>190563</integer>
-		<key>installer_item_hash</key>
-		<string>d196cbb677b4e78de13f2e320d6e778e2092252398f4d4385b6bf225a0678190</string>
-		<key>installer_item_location</key>
-		<string>apps/blackmagic/DesktopVideo_9.9.3.dmg</string>
-		<key>installer_item_size</key>
-		<integer>78961</integer>
-		<key>minimum_os_version</key>
-		<string>10.5.0</string>
-		<key>name</key>
-		<string>BlackMagic Desktop Video</string>
-		<key>receipts</key>
-		<array>
-			<dict>
-				<key>installed_size</key>
-				<integer>107211</integer>
-				<key>packageid</key>
-				<string>com.blackmagic-design.DesktopVideo</string>
-				<key>version</key>
-				<string>9.9.3</string>
-			</dict>
-			<dict>
-				<key>installed_size</key>
-				<integer>41173</integer>
-				<key>packageid</key>
-				<string>com.blackmagic-design.DiskSpeedTest</string>
-				<key>version</key>
-				<string>2.2.1</string>
-			</dict>
-			<dict>
-				<key>installed_size</key>
-				<integer>41907</integer>
-				<key>packageid</key>
-				<string>com.blackmagic-design.MediaExpress</string>
-				<key>version</key>
-				<string>3.2.4</string>
-			</dict>
-			<dict>
-				<key>installed_size</key>
-				<integer>272</integer>
-				<key>packageid</key>
-				<string>com.apple.uncompressed422.Uncompressed422.pkg</string>
-				<key>version</key>
-				<string>1.6.1</string>
-			</dict>
-		</array>
-		<key>uninstall_method</key>
-		<string>removepackages</string>
-		<key>uninstallable</key>
-		<true/>
-		<key>version</key>
-		<string>9.9.3</string>
-	</dict>
-	<dict>
 		<key>autoremove</key>
 		<false/>
 		<key>catalogs</key>
@@ -961,11 +838,11 @@
 		<key>display_name</key>
 		<string>Google Chrome</string>
 		<key>installer_item_hash</key>
-		<string>869af5b93dc553f9f18bc8309cbf264a322f5b5ec494119214d8b38d17921d4a</string>
+		<string>03f9e0aea1a8fc01a04d7d2b165352548baa1a57bbcc98c98f7baa653a8f1f9b</string>
 		<key>installer_item_location</key>
-		<string>apps/google/googlechrome-39.0.2171.71.dmg</string>
+		<string>apps/google/googlechrome-40.0.2214.94.dmg</string>
 		<key>installer_item_size</key>
-		<integer>65221</integer>
+		<integer>65935</integer>
 		<key>installer_type</key>
 		<string>copy_from_dmg</string>
 		<key>installs</key>
@@ -976,9 +853,9 @@
 				<key>CFBundleName</key>
 				<string>Chrome</string>
 				<key>CFBundleShortVersionString</key>
-				<string>39.0.2171.71</string>
+				<string>40.0.2214.94</string>
 				<key>CFBundleVersion</key>
-				<string>2171.71</string>
+				<string>2214.94</string>
 				<key>minosversion</key>
 				<string>10.6.0</string>
 				<key>path</key>
@@ -1007,7 +884,7 @@
 		<key>uninstallable</key>
 		<true/>
 		<key>version</key>
-		<string>39.0.2171.71</string>
+		<string>40.0.2214.94</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -1117,6 +994,8 @@
 		<string>5.4.2.18903</string>
 	</dict>
 	<dict>
+		<key>RestartAction</key>
+		<string>RequireLogout</string>
 		<key>autoremove</key>
 		<false/>
 		<key>catalogs</key>
@@ -1124,57 +1003,46 @@
 			<string>sgs-catalog</string>
 		</array>
 		<key>description</key>
-		<string>IPEVO Presenter</string>
+		<string>Google Voice and Video</string>
 		<key>display_name</key>
-		<string>IPEVO Presenter</string>
+		<string>Google Voice and Video</string>
+		<key>installed_size</key>
+		<integer>17759</integer>
 		<key>installer_item_hash</key>
-		<string>76b4604ae573dbe23ddecf5243a93986e609bb69ab1827f39540d8cd6e7bc80d</string>
+		<string>31e25aa58b87117eac5ebf4653a3d4ffd728e198eea2bd077d52c4a65de2d7b6</string>
 		<key>installer_item_location</key>
-		<string>apps/ipevo/Presenter_mac_2.5.dmg</string>
+		<string>apps/google/Google Voice and Video-5.40.2.0.pkg</string>
 		<key>installer_item_size</key>
-		<integer>1571</integer>
-		<key>installer_type</key>
-		<string>copy_from_dmg</string>
-		<key>installs</key>
-		<array>
-			<dict>
-				<key>CFBundleIdentifier</key>
-				<string>com.ipevo.p2v</string>
-				<key>CFBundleName</key>
-				<string>IPEVO Presenter</string>
-				<key>CFBundleShortVersionString</key>
-				<string>2.5</string>
-				<key>CFBundleVersion</key>
-				<string>6025</string>
-				<key>minosversion</key>
-				<string>10.6</string>
-				<key>path</key>
-				<string>/Applications/IPEVO Presenter.app</string>
-				<key>type</key>
-				<string>application</string>
-				<key>version_comparison_key</key>
-				<string>CFBundleShortVersionString</string>
-			</dict>
-		</array>
-		<key>items_to_copy</key>
-		<array>
-			<dict>
-				<key>destination_path</key>
-				<string>/Applications</string>
-				<key>source_item</key>
-				<string>IPEVO Presenter.app</string>
-			</dict>
-		</array>
+		<integer>8986</integer>
 		<key>minimum_os_version</key>
-		<string>10.6</string>
+		<string>10.5.0</string>
 		<key>name</key>
-		<string>IPEVO Presenter</string>
+		<string>Google Voice and Video</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>0</integer>
+				<key>packageid</key>
+				<string>com.google.pkg.Keystone</string>
+				<key>version</key>
+				<string>1.1.0.3659</string>
+			</dict>
+			<dict>
+				<key>installed_size</key>
+				<integer>17759</integer>
+				<key>packageid</key>
+				<string>com.google.pkg.GoogleVoiceAndVideo</string>
+				<key>version</key>
+				<string>5.40.2.0</string>
+			</dict>
+		</array>
 		<key>uninstall_method</key>
-		<string>remove_copied_items</string>
+		<string>removepackages</string>
 		<key>uninstallable</key>
 		<true/>
 		<key>version</key>
-		<string>2.5</string>
+		<string>5.40.2.0</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -1307,14 +1175,16 @@
 		<string>SGS LanSchool Student</string>
 		<key>display_name</key>
 		<string>LanSchool Student</string>
+		<key>force_install_after_date</key>
+		<date>2015-02-05T13:00:00Z</date>
 		<key>installed_size</key>
-		<integer>5732</integer>
+		<integer>5773</integer>
 		<key>installer_item_hash</key>
-		<string>9bca5163ac824877400ea998318db11a270b2e5884f4082f05672c313f5715a2</string>
+		<string>112bc602d80b1b4ae6185ae87f1f4ca78574a7a2b3078bd16d3f7ac8d1b5c5aa</string>
 		<key>installer_item_location</key>
-		<string>apps/lanschool/sgs_lanschool_student_2706-7.8.0.69.pkg</string>
+		<string>apps/lanschool/sgs_lanschool_student_2706-7.8.0.83.pkg</string>
 		<key>installer_item_size</key>
-		<integer>2927</integer>
+		<integer>2935</integer>
 		<key>minimum_os_version</key>
 		<string>10.5.0</string>
 		<key>name</key>
@@ -1323,7 +1193,7 @@
 		<array>
 			<dict>
 				<key>installed_size</key>
-				<integer>5732</integer>
+				<integer>5773</integer>
 				<key>packageid</key>
 				<string>com.lanschool.student.setup.pkg</string>
 				<key>version</key>
@@ -1335,7 +1205,7 @@
 		<key>uninstallable</key>
 		<true/>
 		<key>version</key>
-		<string>7.8.0.69</string>
+		<string>7.8.0.83</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -1348,14 +1218,16 @@
 		<string>LanSchool Teacher</string>
 		<key>display_name</key>
 		<string>LanSchool Teacher</string>
+		<key>force_install_after_date</key>
+		<date>2015-01-30T13:00:00Z</date>
 		<key>installed_size</key>
-		<integer>20736</integer>
+		<integer>21746</integer>
 		<key>installer_item_hash</key>
-		<string>9e256ae63768988786f60653b14bb4a6958807e8f34c8aaa4701cd390065972e</string>
+		<string>42f0c98e52a2eaf5ed888e1d460695f9f90ac807a8273784b04a86f59ac6636b</string>
 		<key>installer_item_location</key>
-		<string>apps/lanschool/sgs_lanschool_teacher_2706-7.7.334.pkg</string>
+		<string>apps/lanschool/sgs_lanschool_teacher_2706-7.8.0.83.pkg</string>
 		<key>installer_item_size</key>
-		<integer>9550</integer>
+		<integer>10667</integer>
 		<key>minimum_os_version</key>
 		<string>10.5.0</string>
 		<key>name</key>
@@ -1364,7 +1236,7 @@
 		<array>
 			<dict>
 				<key>installed_size</key>
-				<integer>21332</integer>
+				<integer>21746</integer>
 				<key>packageid</key>
 				<string>com.lanschool.teacher.pkg</string>
 				<key>version</key>
@@ -1376,7 +1248,7 @@
 		<key>uninstallable</key>
 		<true/>
 		<key>version</key>
-		<string>7.7.334</string>
+		<string>7.8.0.83</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -1450,79 +1322,6 @@
 		<true/>
 		<key>version</key>
 		<string>1.0.1.20130826.1</string>
-	</dict>
-	<dict>
-		<key>autoremove</key>
-		<false/>
-		<key>catalogs</key>
-		<array>
-			<string>sgs-catalog</string>
-		</array>
-		<key>description</key>
-		<string>LEGO MINDSTORMS EV3 Home Edition</string>
-		<key>display_name</key>
-		<string>LEGO MINDSTORMS EV3 Home Edition</string>
-		<key>installed_size</key>
-		<integer>926955</integer>
-		<key>installer_item_hash</key>
-		<string>7331e72cfff30661606387c86e8153b2526547b588525385ac2ecd272d38194a</string>
-		<key>installer_item_location</key>
-		<string>apps/lego/LMS-EV3-OSX-ENUS-01-01-01-full-setup-1.1.1.dmg</string>
-		<key>installer_item_size</key>
-		<integer>648560</integer>
-		<key>minimum_os_version</key>
-		<string>10.5.0</string>
-		<key>name</key>
-		<string>LEGO MINDSTORMS EV3 Home Edition</string>
-		<key>receipts</key>
-		<array>
-			<dict>
-				<key>installed_size</key>
-				<integer>552719</integer>
-				<key>packageid</key>
-				<string>com.ni.pkg.lego.x3.1.1.1.core</string>
-				<key>version</key>
-				<string>1.1.1</string>
-			</dict>
-			<dict>
-				<key>installed_size</key>
-				<integer>81348</integer>
-				<key>packageid</key>
-				<string>com.ni.pkg.lego.ev3.Eng.1.1.1</string>
-				<key>version</key>
-				<string>1.1.1</string>
-			</dict>
-			<dict>
-				<key>installed_size</key>
-				<integer>3</integer>
-				<key>packageid</key>
-				<string>com.ni.pkg.lego.x3.1.1.1.update</string>
-				<key>version</key>
-				<string>1.1.1</string>
-			</dict>
-			<dict>
-				<key>installed_size</key>
-				<integer>1689</integer>
-				<key>packageid</key>
-				<string>com.ni.pkg.legodriver</string>
-				<key>version</key>
-				<string>1.2.49155</string>
-			</dict>
-			<dict>
-				<key>installed_size</key>
-				<integer>255625</integer>
-				<key>packageid</key>
-				<string>com.ximian.mono-2.10.9</string>
-				<key>version</key>
-				<string>2.10.9</string>
-			</dict>
-		</array>
-		<key>uninstall_method</key>
-		<string>removepackages</string>
-		<key>uninstallable</key>
-		<true/>
-		<key>version</key>
-		<string>1.1.1</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -2123,11 +1922,11 @@
 		<key>display_name</key>
 		<string>Mozilla Firefox</string>
 		<key>installer_item_hash</key>
-		<string>588d1265248f9d6f36ac809ecde43d46b5bc3f00b4890a84d7b0a42b503a5be8</string>
+		<string>20f0cf57c21181946c621b20f2758611a9c59d57ab25d4c991cde3f25dee404d</string>
 		<key>installer_item_location</key>
-		<string>apps/mozilla/Firefox 31.3.0esr-31.3.0.dmg</string>
+		<string>apps/mozilla/Firefox 31.4.0esr-31.4.0.dmg</string>
 		<key>installer_item_size</key>
-		<integer>61519</integer>
+		<integer>61521</integer>
 		<key>installer_type</key>
 		<string>copy_from_dmg</string>
 		<key>installs</key>
@@ -2138,9 +1937,9 @@
 				<key>CFBundleName</key>
 				<string>Firefox</string>
 				<key>CFBundleShortVersionString</key>
-				<string>31.3.0</string>
+				<string>31.4.0</string>
 				<key>CFBundleVersion</key>
-				<string>3114.11.25</string>
+				<string>3115.1.5</string>
 				<key>minosversion</key>
 				<string>10.6</string>
 				<key>path</key>
@@ -2169,7 +1968,7 @@
 		<key>uninstallable</key>
 		<true/>
 		<key>version</key>
-		<string>31.3.0</string>
+		<string>31.4.0</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -2183,11 +1982,11 @@
 		<key>display_name</key>
 		<string>Mozilla Thunderbird</string>
 		<key>installer_item_hash</key>
-		<string>b420b7b04cde0c57645bf2ae0f8b9fc507e854f82690b26551a54c17518885a6</string>
+		<string>6de56ad6d215e3505afa376834cf251e1a1d0d4d4d1d570cfb507afefd164490</string>
 		<key>installer_item_location</key>
-		<string>apps/mozilla/Thunderbird 31.3.0.dmg</string>
+		<string>apps/mozilla/Thunderbird 31.4.0.dmg</string>
 		<key>installer_item_size</key>
-		<integer>52232</integer>
+		<integer>58967</integer>
 		<key>installer_type</key>
 		<string>copy_from_dmg</string>
 		<key>installs</key>
@@ -2198,9 +1997,9 @@
 				<key>CFBundleName</key>
 				<string>Thunderbird</string>
 				<key>CFBundleShortVersionString</key>
-				<string>31.3.0</string>
+				<string>31.4.0</string>
 				<key>CFBundleVersion</key>
-				<string>31.3.0</string>
+				<string>31.4.0</string>
 				<key>minosversion</key>
 				<string>10.6.0</string>
 				<key>path</key>
@@ -2229,7 +2028,7 @@
 		<key>uninstallable</key>
 		<true/>
 		<key>version</key>
-		<string>31.3.0</string>
+		<string>31.4.0</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -2521,6 +2320,8 @@
 		<string>VLC Media Player</string>
 		<key>display_name</key>
 		<string>VLC Media Player</string>
+		<key>force_install_after_date</key>
+		<date>2015-02-10T13:00:00Z</date>
 		<key>installer_item_hash</key>
 		<string>923504e296829f4253af8276b992636f72e56232ecdbdcf6003647ee662257f2</string>
 		<key>installer_item_location</key>
@@ -2569,6 +2370,70 @@
 		<true/>
 		<key>version</key>
 		<string>2.1.5</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>sgs-catalog</string>
+		</array>
+		<key>force_install_after_date</key>
+		<date>2015-02-06T13:00:00Z</date>
+		<key>installer_type</key>
+		<string>apple_update_metadata</string>
+		<key>name</key>
+		<string>031-07602</string>
+		<key>version</key>
+		<string>1.0</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>sgs-catalog</string>
+		</array>
+		<key>force_install_after_date</key>
+		<date>2015-02-09T13:00:00Z</date>
+		<key>installer_type</key>
+		<string>apple_update_metadata</string>
+		<key>name</key>
+		<string>zzz031-11170</string>
+		<key>version</key>
+		<string>1.0</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>sgs-catalog</string>
+		</array>
+		<key>force_install_after_date</key>
+		<date>2015-02-06T15:00:00Z</date>
+		<key>installer_type</key>
+		<string>apple_update_metadata</string>
+		<key>name</key>
+		<string>031-3227</string>
+		<key>version</key>
+		<string>1.0</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>sgs-catalog</string>
+		</array>
+		<key>force_install_after_date</key>
+		<date>2015-02-09T13:00:00Z</date>
+		<key>installer_type</key>
+		<string>apple_update_metadata</string>
+		<key>name</key>
+		<string>031-17448</string>
+		<key>version</key>
+		<string>1.0</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -2682,6 +2547,8 @@
 		<string>Disable_PCClient</string>
 		<key>display_name</key>
 		<string>Disable_PCClient</string>
+		<key>force_install_after_date</key>
+		<date>2015-02-10T13:00:00Z</date>
 		<key>installed_size</key>
 		<integer>352</integer>
 		<key>installer_item_hash</key>

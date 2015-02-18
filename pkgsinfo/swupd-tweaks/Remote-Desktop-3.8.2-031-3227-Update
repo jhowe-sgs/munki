@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>_metadata</key>
+	<dict>
+		<key>created_by</key>
+		<string>jhowe</string>
+		<key>creation_date</key>
+		<date>2015-02-04T19:55:31Z</date>
+		<key>munki_version</key>
+		<string>1.0.0.1864</string>
+		<key>os_version</key>
+		<string>10.9.5</string>
+	</dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>sgs-catalog</string>
+	</array>
+	<key>force_install_after_date</key>
+	<date>2015-02-06T15:00:00Z</date>
+	<key>installer_type</key>
+	<string>apple_update_metadata</string>
+	<key>name</key>
+	<string>031-3227</string>
+	<key>version</key>
+	<string>1.0</string>
+</dict>
+</plist>
+

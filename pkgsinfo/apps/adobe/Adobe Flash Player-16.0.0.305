@@ -7,7 +7,7 @@
 		<key>created_by</key>
 		<string>root</string>
 		<key>creation_date</key>
-		<date>2014-09-29T19:42:53Z</date>
+		<date>2015-02-06T07:35:16Z</date>
 		<key>munki_version</key>
 		<string>1.0.0.1864</string>
 		<key>os_version</key>
@@ -20,30 +20,30 @@
 		<string>sgs-catalog</string>
 	</array>
 	<key>description</key>
-	<string>SGS LanSchool Student</string>
+	<string>Adobe Flash Player</string>
 	<key>display_name</key>
-	<string>LanSchool Student</string>
+	<string>Adobe Flash Player</string>
 	<key>installed_size</key>
-	<integer>5732</integer>
+	<integer>16071</integer>
 	<key>installer_item_hash</key>
-	<string>9bca5163ac824877400ea998318db11a270b2e5884f4082f05672c313f5715a2</string>
+	<string>f2d51168456b5f78aab8b3fec355bee7cbd4a64073cf0bd69f91eb33d60998ac</string>
 	<key>installer_item_location</key>
-	<string>apps/lanschool/sgs_lanschool_student_2706-7.8.0.69.pkg</string>
+	<string>apps/adobe/Install Adobe Flash Player-16.0.0.305.pkg</string>
 	<key>installer_item_size</key>
-	<integer>2927</integer>
+	<integer>14818</integer>
 	<key>minimum_os_version</key>
 	<string>10.5.0</string>
 	<key>name</key>
-	<string>sgs_lanschool_student</string>
+	<string>Adobe Flash Player</string>
 	<key>receipts</key>
 	<array>
 		<dict>
 			<key>installed_size</key>
-			<integer>5732</integer>
+			<integer>16071</integer>
 			<key>packageid</key>
-			<string>com.lanschool.student.setup.pkg</string>
+			<string>com.adobe.pkg.FlashPlayer</string>
 			<key>version</key>
-			<string>2</string>
+			<string>16.0.0.305</string>
 		</dict>
 	</array>
 	<key>uninstall_method</key>
@@ -51,6 +51,10 @@
 	<key>uninstallable</key>
 	<true/>
 	<key>version</key>
-	<string>7.8.0.69</string>
+	<string>16.0.0.305</string>
+	<key>force_install_after_date</key>
+	<date>2015-02-06T14:00:00Z</date>
+	<key>RestartAction</key>
+	<string>RequireLogout</string>
 </dict>
 </plist>

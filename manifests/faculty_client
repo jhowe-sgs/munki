@@ -11,6 +11,7 @@
 	</array>
 	<key>managed_installs</key>
 	<array>
+		<string>sgs_lanschool_teacher</string>
 		<string>Firefox</string>
 		<string>Thunderbird</string>
 		<string>Chrome</string>
@@ -29,7 +30,6 @@
                 <string>iMovie</string>
                 <string>Keynote</string>
                 <string>Numbers</string>
-                <string>Pages</string>
                 <string>Pixelmator</string>
                 <string>OneDrive</string>
                 <string>Disable_PCClient</string>
@@ -40,6 +40,7 @@
                 <string>Remove_SourceTree</string>
                 <string>IPEVO Presenter</string>
                 <string>GarageBand</string>
+		<string>Google Voice and Video</string>
 	</array>
 	<key>managed_uninstalls</key>
 	<array>

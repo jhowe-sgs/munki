@@ -11,8 +11,9 @@
 	</array>
 	<key>managed_installs</key>
 	<array>
-		<string>sgs_lanschool_student</string>
+		<string>sgs_lanschool_teacher</string>
 		<string>Firefox</string>
+		<string>Thunderbird</string>
 		<string>Chrome</string>
 		<string>Adobe Flash Player</string>
 		<string>License Comic Life 3</string>
@@ -40,7 +41,6 @@
                 <string>Remove_SourceTree</string>
                 <string>IPEVO Presenter</string>
                 <string>GarageBand</string>
-                <string>Google Voice and Video</string>
 	</array>
 	<key>managed_uninstalls</key>
 	<array>
