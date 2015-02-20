@@ -38,6 +38,7 @@
                 <string>IPEVO Presenter</string>
                 <string>GarageBand</string>
                 <string>Google Voice and Video</string>
+                <string>SGS_CA</string>
 	</array>
 	<key>managed_uninstalls</key>
 	<array>

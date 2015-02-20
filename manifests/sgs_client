@@ -39,6 +39,7 @@
 		<string>GarageBand</string>
 		<string>Xcode</string>
 		<string>Google Voice and Video</string>
+		<string>SGS_CA</string>
 	</array>
 	<key>managed_uninstalls</key>
 	<array>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>_metadata</key>
+	<dict>
+		<key>created_by</key>
+		<string>root</string>
+		<key>creation_date</key>
+		<date>2015-02-20T22:05:00Z</date>
+		<key>munki_version</key>
+		<string>1.0.0.1864</string>
+		<key>os_version</key>
+		<string>10.9.5</string>
+	</dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>sgs-catalog</string>
+	</array>
+	<key>description</key>
+	<string>SGS Firewall CA Certificate</string>
+	<key>display_name</key>
+	<string>SGS Firewall CA Certificate</string>
+	<key>installed_size</key>
+	<integer>354</integer>
+	<key>installer_item_hash</key>
+	<string>54e1bc35d433c57bcf8a1054e5004ba24ce96da0c55d43657a4e8e357979ff37</string>
+	<key>installer_item_location</key>
+	<string>utilities/SGS_CA-20150220.1352.pkg</string>
+	<key>installer_item_size</key>
+	<integer>244</integer>
+	<key>minimum_os_version</key>
+	<string>10.5.0</string>
+	<key>name</key>
+	<string>SGS_CA</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>installed_size</key>
+			<integer>354</integer>
+			<key>packageid</key>
+			<string>org.seattlegirlsschool.sgs-ca</string>
+			<key>version</key>
+			<string>20150220.1352</string>
+		</dict>
+	</array>
+	<key>uninstall_method</key>
+	<string>removepackages</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>20150220.1352</string>
+	<key>RestartAction</key>
+	<string>RequireLogout</string>
+</dict>
+</plist>
