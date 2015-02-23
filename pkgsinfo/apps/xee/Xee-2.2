@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>_metadata</key>
+	<dict>
+		<key>created_by</key>
+		<string>root</string>
+		<key>creation_date</key>
+		<date>2015-02-23T19:52:45Z</date>
+		<key>munki_version</key>
+		<string>1.0.0.1864</string>
+		<key>os_version</key>
+		<string>10.9.5</string>
+	</dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>sgs-catalog</string>
+	</array>
+	<key>description</key>
+	<string>Xee Image Viewer</string>
+	<key>display_name</key>
+	<string>Xee</string>
+	<key>installer_item_hash</key>
+	<string>4de76fac55c04fee8859e962106e1fc360be5d7ab59d9d4f7697a79ecef090e0</string>
+	<key>installer_item_location</key>
+	<string>apps/xee/Xee-2.2.dmg</string>
+	<key>installer_item_size</key>
+	<integer>4345</integer>
+	<key>installer_type</key>
+	<string>copy_from_dmg</string>
+	<key>installs</key>
+	<array>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>cx.c3.xee</string>
+			<key>CFBundleVersion</key>
+			<string>2.2</string>
+			<key>path</key>
+			<string>/Applications/Xee.app</string>
+			<key>type</key>
+			<string>application</string>
+			<key>version_comparison_key</key>
+			<string>CFBundleVersion</string>
+		</dict>
+	</array>
+	<key>items_to_copy</key>
+	<array>
+		<dict>
+			<key>destination_path</key>
+			<string>/Applications</string>
+			<key>source_item</key>
+			<string>Xee.app</string>
+		</dict>
+	</array>
+	<key>minimum_os_version</key>
+	<string>10.4.0</string>
+	<key>name</key>
+	<string>Xee</string>
+	<key>uninstall_method</key>
+	<string>remove_copied_items</string>
+	<key>uninstallable</key>
+	<true/>
+	<key>version</key>
+	<string>2.2</string>
+</dict>
+</plist>

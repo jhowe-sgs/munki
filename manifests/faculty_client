@@ -42,6 +42,8 @@
                 <string>GarageBand</string>
                 <string>Google Voice and Video</string>
                 <string>SGS_CA</string>
+                <string>Xee</string>
+                <string>PyCharm Educational Edition</string>
 	</array>
 	<key>managed_uninstalls</key>
 	<array>
