@@ -2038,6 +2038,66 @@
 			<string>sgs-catalog</string>
 		</array>
 		<key>description</key>
+		<string>Web browser from Mozilla</string>
+		<key>display_name</key>
+		<string>Mozilla Firefox</string>
+		<key>installer_item_hash</key>
+		<string>e3e385b6cf0ae3ea0c8e816c997c96819ad6ae8b947b2130f2922b38aa4ac3e7</string>
+		<key>installer_item_location</key>
+		<string>apps/mozilla/Firefox 31.5.0esr-31.5.0.dmg</string>
+		<key>installer_item_size</key>
+		<integer>61520</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>org.mozilla.firefox</string>
+				<key>CFBundleName</key>
+				<string>Firefox</string>
+				<key>CFBundleShortVersionString</key>
+				<string>31.5.0</string>
+				<key>CFBundleVersion</key>
+				<string>3115.2.17</string>
+				<key>minosversion</key>
+				<string>10.6</string>
+				<key>path</key>
+				<string>/Applications/Firefox.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Firefox.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.6</string>
+		<key>name</key>
+		<string>Firefox</string>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>31.5.0</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>sgs-catalog</string>
+		</array>
+		<key>description</key>
 		<string>EMail Client from Mozilla</string>
 		<key>display_name</key>
 		<string>Mozilla Thunderbird</string>
@@ -2089,6 +2149,66 @@
 		<true/>
 		<key>version</key>
 		<string>31.4.0</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>sgs-catalog</string>
+		</array>
+		<key>description</key>
+		<string>EMail Client from Mozilla</string>
+		<key>display_name</key>
+		<string>Mozilla Thunderbird</string>
+		<key>installer_item_hash</key>
+		<string>5cec9186419853d902e0e61a52c20d679b27812b5a5e631d31ecbe5917b47ea1</string>
+		<key>installer_item_location</key>
+		<string>apps/mozilla/Thunderbird-31.5.0.dmg</string>
+		<key>installer_item_size</key>
+		<integer>58970</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>org.mozilla.thunderbird</string>
+				<key>CFBundleName</key>
+				<string>Thunderbird</string>
+				<key>CFBundleShortVersionString</key>
+				<string>31.5.0</string>
+				<key>CFBundleVersion</key>
+				<string>31.5.0</string>
+				<key>minosversion</key>
+				<string>10.6.0</string>
+				<key>path</key>
+				<string>/Applications/Thunderbird.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Thunderbird.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.6.0</string>
+		<key>name</key>
+		<string>Thunderbird</string>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>31.5.0</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
