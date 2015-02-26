@@ -71,5 +71,7 @@
 	<true/>
 	<key>version</key>
 	<string>40.0.2214.94</string>
+        <key>RestartAction</key>
+        <string>RequireLogout</string>
 </dict>
 </plist>

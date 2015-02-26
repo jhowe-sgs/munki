@@ -40,6 +40,7 @@
                 <string>Google Voice and Video</string>
                 <string>SGS_CA</string>
                 <string>Xee</string>
+                <string>munkireport</string>
 	</array>
 	<key>managed_uninstalls</key>
 	<array>

@@ -827,6 +827,8 @@
 		<string>0.0.7</string>
 	</dict>
 	<dict>
+		<key>RestartAction</key>
+		<string>RequireLogout</string>
 		<key>autoremove</key>
 		<false/>
 		<key>catalogs</key>
@@ -943,55 +945,6 @@
 		<true/>
 		<key>version</key>
 		<string>1.18</string>
-	</dict>
-	<dict>
-		<key>autoremove</key>
-		<false/>
-		<key>catalogs</key>
-		<array>
-			<string>sgs-catalog</string>
-		</array>
-		<key>description</key>
-		<string>Google Voice and Video</string>
-		<key>display_name</key>
-		<string>Google Voice and Video</string>
-		<key>installed_size</key>
-		<integer>17946</integer>
-		<key>installer_item_hash</key>
-		<string>919c8ddc90765f67872a78b2f32d9b8ef0e7aeee880b00e351d2b3524dc010aa</string>
-		<key>installer_item_location</key>
-		<string>apps/google/GoogleVoiceAndVideoSetup-5.4.2.18903.dmg</string>
-		<key>installer_item_size</key>
-		<integer>9028</integer>
-		<key>minimum_os_version</key>
-		<string>10.5.0</string>
-		<key>name</key>
-		<string>Google Voice and Video</string>
-		<key>receipts</key>
-		<array>
-			<dict>
-				<key>installed_size</key>
-				<integer>0</integer>
-				<key>packageid</key>
-				<string>com.google.pkg.Keystone</string>
-				<key>version</key>
-				<string>1.1.0.3659</string>
-			</dict>
-			<dict>
-				<key>installed_size</key>
-				<integer>17946</integer>
-				<key>packageid</key>
-				<string>com.google.pkg.GoogleVoiceAndVideo</string>
-				<key>version</key>
-				<string>5.4.2.18903</string>
-			</dict>
-		</array>
-		<key>uninstall_method</key>
-		<string>removepackages</string>
-		<key>uninstallable</key>
-		<true/>
-		<key>version</key>
-		<string>5.4.2.18903</string>
 	</dict>
 	<dict>
 		<key>RestartAction</key>
@@ -1971,66 +1924,8 @@
 		<string>5.1.30514.0</string>
 	</dict>
 	<dict>
-		<key>autoremove</key>
-		<false/>
-		<key>catalogs</key>
-		<array>
-			<string>sgs-catalog</string>
-		</array>
-		<key>description</key>
-		<string>Web browser from Mozilla</string>
-		<key>display_name</key>
-		<string>Mozilla Firefox</string>
-		<key>installer_item_hash</key>
-		<string>20f0cf57c21181946c621b20f2758611a9c59d57ab25d4c991cde3f25dee404d</string>
-		<key>installer_item_location</key>
-		<string>apps/mozilla/Firefox 31.4.0esr-31.4.0.dmg</string>
-		<key>installer_item_size</key>
-		<integer>61521</integer>
-		<key>installer_type</key>
-		<string>copy_from_dmg</string>
-		<key>installs</key>
-		<array>
-			<dict>
-				<key>CFBundleIdentifier</key>
-				<string>org.mozilla.firefox</string>
-				<key>CFBundleName</key>
-				<string>Firefox</string>
-				<key>CFBundleShortVersionString</key>
-				<string>31.4.0</string>
-				<key>CFBundleVersion</key>
-				<string>3115.1.5</string>
-				<key>minosversion</key>
-				<string>10.6</string>
-				<key>path</key>
-				<string>/Applications/Firefox.app</string>
-				<key>type</key>
-				<string>application</string>
-				<key>version_comparison_key</key>
-				<string>CFBundleShortVersionString</string>
-			</dict>
-		</array>
-		<key>items_to_copy</key>
-		<array>
-			<dict>
-				<key>destination_path</key>
-				<string>/Applications</string>
-				<key>source_item</key>
-				<string>Firefox.app</string>
-			</dict>
-		</array>
-		<key>minimum_os_version</key>
-		<string>10.6</string>
-		<key>name</key>
-		<string>Firefox</string>
-		<key>uninstall_method</key>
-		<string>remove_copied_items</string>
-		<key>uninstallable</key>
-		<true/>
-		<key>version</key>
-		<string>31.4.0</string>
-	</dict>
-	<dict>
+		<key>RestartAction</key>
+		<string>RequireLogout</string>
 		<key>autoremove</key>
 		<false/>
 		<key>catalogs</key>
@@ -2089,66 +1984,6 @@
 		<true/>
 		<key>version</key>
 		<string>31.5.0</string>
-	</dict>
-	<dict>
-		<key>autoremove</key>
-		<false/>
-		<key>catalogs</key>
-		<array>
-			<string>sgs-catalog</string>
-		</array>
-		<key>description</key>
-		<string>EMail Client from Mozilla</string>
-		<key>display_name</key>
-		<string>Mozilla Thunderbird</string>
-		<key>installer_item_hash</key>
-		<string>6de56ad6d215e3505afa376834cf251e1a1d0d4d4d1d570cfb507afefd164490</string>
-		<key>installer_item_location</key>
-		<string>apps/mozilla/Thunderbird 31.4.0.dmg</string>
-		<key>installer_item_size</key>
-		<integer>58967</integer>
-		<key>installer_type</key>
-		<string>copy_from_dmg</string>
-		<key>installs</key>
-		<array>
-			<dict>
-				<key>CFBundleIdentifier</key>
-				<string>org.mozilla.thunderbird</string>
-				<key>CFBundleName</key>
-				<string>Thunderbird</string>
-				<key>CFBundleShortVersionString</key>
-				<string>31.4.0</string>
-				<key>CFBundleVersion</key>
-				<string>31.4.0</string>
-				<key>minosversion</key>
-				<string>10.6.0</string>
-				<key>path</key>
-				<string>/Applications/Thunderbird.app</string>
-				<key>type</key>
-				<string>application</string>
-				<key>version_comparison_key</key>
-				<string>CFBundleShortVersionString</string>
-			</dict>
-		</array>
-		<key>items_to_copy</key>
-		<array>
-			<dict>
-				<key>destination_path</key>
-				<string>/Applications</string>
-				<key>source_item</key>
-				<string>Thunderbird.app</string>
-			</dict>
-		</array>
-		<key>minimum_os_version</key>
-		<string>10.6.0</string>
-		<key>name</key>
-		<string>Thunderbird</string>
-		<key>uninstall_method</key>
-		<string>remove_copied_items</string>
-		<key>uninstallable</key>
-		<true/>
-		<key>version</key>
-		<string>31.4.0</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -3153,6 +2988,57 @@
 		<true/>
 		<key>version</key>
 		<string>2013102103</string>
+	</dict>
+	<dict>
+		<key>RestartAction</key>
+		<string>RequireLogout</string>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>sgs-catalog</string>
+		</array>
+		<key>display_name</key>
+		<string>Munkireport Install and Config</string>
+		<key>force_install_after_date</key>
+		<date>2015-02-27T13:00:00Z</date>
+		<key>installer_type</key>
+		<string>nopkg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>path</key>
+				<string>/usr/local/munki/munkireport-2.2.0</string>
+				<key>type</key>
+				<string>file</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.4.0</string>
+		<key>name</key>
+		<string>munkireport</string>
+		<key>preinstall_script</key>
+		<string>#!/bin/bash 
+/bin/bash -c "$(curl -s --max-time 10 http://munki-reports.seattlegirlsschool.org/index.php?/install)"</string>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>uninstall_script</string>
+		<key>uninstall_script</key>
+		<string>#!/bin/sh
+rm -rf /usr/local/munki/preflight \
+  /usr/local/munki/preflight.d \
+  /usr/local/munki/postflight \
+  /usr/local/munki/postflight.d \
+  /usr/local/munki/report_broken_client \
+  /usr/local/munkilib/reportcommon.py \
+  /usr/local/munki/munkireport-* \
+  /Library/Preferences/MunkiReport.plist
+exit 0</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>2.2.0</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>

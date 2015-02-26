@@ -71,5 +71,7 @@
 	<true/>
 	<key>version</key>
 	<string>31.5.0</string>
+        <key>RestartAction</key>
+        <string>RequireLogout</string>
 </dict>
 </plist>
