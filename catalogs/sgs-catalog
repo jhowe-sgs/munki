@@ -2999,7 +2999,7 @@
 			<string>sgs-catalog</string>
 		</array>
 		<key>display_name</key>
-		<string>Munkireport Install and Config</string>
+		<string>MunkiReport Install and Config</string>
 		<key>force_install_after_date</key>
 		<date>2015-02-27T13:00:00Z</date>
 		<key>installer_type</key>
