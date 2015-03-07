@@ -71,5 +71,27 @@
 	<true/>
 	<key>version</key>
 	<string>1.0.1</string>
+	<key>installcheck_script</key>
+	<string>#!/bin/bash
+
+VER_FILE="/Applications/PyCharm Educational.app/Contents/Info.plist"
+
+VER_CHK="1.0.1"
+
+if [ -s "${VER_FILE}" ]; then
+	VERSION="`grep Copyright \"${VER_FILE}\" | awk '{print $4}' | cut -d\, -f1`"
+	# echo "Found version: ${VERSION}"
+	if [ ${VERSION:-0} \&lt; ${VER_CHK} ]; then
+		# echo "Needs update to ${VER_CHK}"
+		exit 0
+	else
+		# echo "${VER_CHK} currently installed"
+		exit 1
+	fi
+else
+	# echo "Missing ${VER_FILE}"
+	exit 0
+fi
+</string>
 </dict>
 </plist>
