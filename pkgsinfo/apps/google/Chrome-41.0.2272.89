@@ -7,7 +7,7 @@
 		<key>created_by</key>
 		<string>root</string>
 		<key>creation_date</key>
-		<date>2015-01-31T02:35:49Z</date>
+		<date>2015-03-11T00:30:25Z</date>
 		<key>munki_version</key>
 		<string>1.0.0.1864</string>
 		<key>os_version</key>
@@ -24,11 +24,11 @@
 	<key>display_name</key>
 	<string>Google Chrome</string>
 	<key>installer_item_hash</key>
-	<string>03f9e0aea1a8fc01a04d7d2b165352548baa1a57bbcc98c98f7baa653a8f1f9b</string>
+	<string>ad7091a6bfdb0b54b20c3ac966c88937ec30d2cc80a34ca9170e7bfb7b3481e2</string>
 	<key>installer_item_location</key>
-	<string>apps/google/googlechrome-40.0.2214.94.dmg</string>
+	<string>apps/google/GoogleChrome-41.0.2272.89.dmg</string>
 	<key>installer_item_size</key>
-	<integer>65935</integer>
+	<integer>66581</integer>
 	<key>installer_type</key>
 	<string>copy_from_dmg</string>
 	<key>installs</key>
@@ -39,9 +39,9 @@
 			<key>CFBundleName</key>
 			<string>Chrome</string>
 			<key>CFBundleShortVersionString</key>
-			<string>40.0.2214.94</string>
+			<string>41.0.2272.89</string>
 			<key>CFBundleVersion</key>
-			<string>2214.94</string>
+			<string>2272.89</string>
 			<key>minosversion</key>
 			<string>10.6.0</string>
 			<key>path</key>
@@ -70,8 +70,10 @@
 	<key>uninstallable</key>
 	<true/>
 	<key>version</key>
-	<string>40.0.2214.94</string>
-        <key>RestartAction</key>
-        <string>RequireLogout</string>
+	<string>41.0.2272.89</string>
+	<key>RestartAction</key>
+	<string>RequireLogout</string>
+	<key>force_install_after_date</key>
+	<date>2015-03-10T13:00:00Z</date>
 </dict>
 </plist>

@@ -839,12 +839,14 @@
 		<string>Web Browser from Google</string>
 		<key>display_name</key>
 		<string>Google Chrome</string>
+		<key>force_install_after_date</key>
+		<date>2015-03-10T13:00:00Z</date>
 		<key>installer_item_hash</key>
-		<string>03f9e0aea1a8fc01a04d7d2b165352548baa1a57bbcc98c98f7baa653a8f1f9b</string>
+		<string>ad7091a6bfdb0b54b20c3ac966c88937ec30d2cc80a34ca9170e7bfb7b3481e2</string>
 		<key>installer_item_location</key>
-		<string>apps/google/googlechrome-40.0.2214.94.dmg</string>
+		<string>apps/google/GoogleChrome-41.0.2272.89.dmg</string>
 		<key>installer_item_size</key>
-		<integer>65935</integer>
+		<integer>66581</integer>
 		<key>installer_type</key>
 		<string>copy_from_dmg</string>
 		<key>installs</key>
@@ -855,9 +857,9 @@
 				<key>CFBundleName</key>
 				<string>Chrome</string>
 				<key>CFBundleShortVersionString</key>
-				<string>40.0.2214.94</string>
+				<string>41.0.2272.89</string>
 				<key>CFBundleVersion</key>
-				<string>2214.94</string>
+				<string>2272.89</string>
 				<key>minosversion</key>
 				<string>10.6.0</string>
 				<key>path</key>
@@ -886,7 +888,7 @@
 		<key>uninstallable</key>
 		<true/>
 		<key>version</key>
-		<string>40.0.2214.94</string>
+		<string>41.0.2272.89</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -996,6 +998,66 @@
 		<true/>
 		<key>version</key>
 		<string>5.40.2.0</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>sgs-catalog</string>
+		</array>
+		<key>description</key>
+		<string>HandBrake: Convert DVDs to Digital Files</string>
+		<key>display_name</key>
+		<string>HandBrake</string>
+		<key>installer_item_hash</key>
+		<string>7c6f231889433d932d3d483df8f4f90fab517386987376542176dd8d2d032bd2</string>
+		<key>installer_item_location</key>
+		<string>apps/handbrake/Handbrake-0.10.1 x86_64.dmg</string>
+		<key>installer_item_size</key>
+		<integer>10175</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>fr.handbrake.HandBrake</string>
+				<key>CFBundleName</key>
+				<string>HandBrake</string>
+				<key>CFBundleShortVersionString</key>
+				<string>0.10.1 x86_64</string>
+				<key>CFBundleVersion</key>
+				<string>2015030800</string>
+				<key>minosversion</key>
+				<string>10.6</string>
+				<key>path</key>
+				<string>/Applications/HandBrake.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>HandBrake.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.6</string>
+		<key>name</key>
+		<string>HandBrake</string>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>0.10.1 x86_64</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -2491,6 +2553,22 @@ fi
 		<string>apple_update_metadata</string>
 		<key>name</key>
 		<string>zzz031-11170</string>
+		<key>version</key>
+		<string>1.0</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>sgs-catalog</string>
+		</array>
+		<key>force_install_after_date</key>
+		<date>2015-03-10T13:00:00Z</date>
+		<key>installer_type</key>
+		<string>apple_update_metadata</string>
+		<key>name</key>
+		<string>zzz031-17121</string>
 		<key>version</key>
 		<string>1.0</string>
 	</dict>
