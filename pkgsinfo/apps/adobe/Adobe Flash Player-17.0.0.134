@@ -7,7 +7,7 @@
 		<key>created_by</key>
 		<string>root</string>
 		<key>creation_date</key>
-		<date>2015-02-06T07:35:16Z</date>
+		<date>2015-03-18T18:33:12Z</date>
 		<key>munki_version</key>
 		<string>1.0.0.1864</string>
 		<key>os_version</key>
@@ -24,13 +24,13 @@
 	<key>display_name</key>
 	<string>Adobe Flash Player</string>
 	<key>installed_size</key>
-	<integer>16071</integer>
+	<integer>16092</integer>
 	<key>installer_item_hash</key>
-	<string>f2d51168456b5f78aab8b3fec355bee7cbd4a64073cf0bd69f91eb33d60998ac</string>
+	<string>65db7d4969c41cb49478363abcd6b8707a95dfeb300c9b9021db4a156c2438be</string>
 	<key>installer_item_location</key>
-	<string>apps/adobe/Install Adobe Flash Player-16.0.0.305.pkg</string>
+	<string>apps/adobe/Install Adobe Flash Player-17.0.0.134.pkg</string>
 	<key>installer_item_size</key>
-	<integer>14818</integer>
+	<integer>14832</integer>
 	<key>minimum_os_version</key>
 	<string>10.5.0</string>
 	<key>name</key>
@@ -39,11 +39,11 @@
 	<array>
 		<dict>
 			<key>installed_size</key>
-			<integer>16071</integer>
+			<integer>16092</integer>
 			<key>packageid</key>
 			<string>com.adobe.pkg.FlashPlayer</string>
 			<key>version</key>
-			<string>16.0.0.305</string>
+			<string>17.0.0.134</string>
 		</dict>
 	</array>
 	<key>uninstall_method</key>
@@ -51,10 +51,10 @@
 	<key>uninstallable</key>
 	<true/>
 	<key>version</key>
-	<string>16.0.0.305</string>
-	<key>force_install_after_date</key>
-	<date>2015-02-06T14:00:00Z</date>
-	<key>RestartAction</key>
-	<string>RequireLogout</string>
+	<string>17.0.0.134</string>
+        <key>RestartAction</key>
+        <string>RequireLogout</string>
+        <key>force_install_after_date</key>
+        <date>2015-03-20T13:00:00Z</date>
 </dict>
 </plist>
