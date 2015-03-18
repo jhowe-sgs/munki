@@ -74,15 +74,15 @@
 		<key>display_name</key>
 		<string>Adobe Flash Player</string>
 		<key>force_install_after_date</key>
-		<date>2015-02-06T14:00:00Z</date>
+		<date>2015-03-20T13:00:00Z</date>
 		<key>installed_size</key>
-		<integer>16071</integer>
+		<integer>16092</integer>
 		<key>installer_item_hash</key>
-		<string>f2d51168456b5f78aab8b3fec355bee7cbd4a64073cf0bd69f91eb33d60998ac</string>
+		<string>65db7d4969c41cb49478363abcd6b8707a95dfeb300c9b9021db4a156c2438be</string>
 		<key>installer_item_location</key>
-		<string>apps/adobe/Install Adobe Flash Player-16.0.0.305.pkg</string>
+		<string>apps/adobe/Install Adobe Flash Player-17.0.0.134.pkg</string>
 		<key>installer_item_size</key>
-		<integer>14818</integer>
+		<integer>14832</integer>
 		<key>minimum_os_version</key>
 		<string>10.5.0</string>
 		<key>name</key>
@@ -91,11 +91,11 @@
 		<array>
 			<dict>
 				<key>installed_size</key>
-				<integer>16071</integer>
+				<integer>16092</integer>
 				<key>packageid</key>
 				<string>com.adobe.pkg.FlashPlayer</string>
 				<key>version</key>
-				<string>16.0.0.305</string>
+				<string>17.0.0.134</string>
 			</dict>
 		</array>
 		<key>uninstall_method</key>
@@ -103,7 +103,7 @@
 		<key>uninstallable</key>
 		<true/>
 		<key>version</key>
-		<string>16.0.0.305</string>
+		<string>17.0.0.134</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
@@ -353,6 +353,66 @@
 			<string>sgs-catalog</string>
 		</array>
 		<key>description</key>
+		<string>Logic Pro X</string>
+		<key>display_name</key>
+		<string>Logic Pro X</string>
+		<key>installer_item_hash</key>
+		<string>c059ee49af49c4c467b11dc135f1b4ef92c0cc4d0824c522f47c2ee42145ddbb</string>
+		<key>installer_item_location</key>
+		<string>apps/apple/Logic Pro X-10.1.1.dmg</string>
+		<key>installer_item_size</key>
+		<integer>1053410</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.apple.logic10</string>
+				<key>CFBundleName</key>
+				<string>Logic Pro X</string>
+				<key>CFBundleShortVersionString</key>
+				<string>10.1.1</string>
+				<key>CFBundleVersion</key>
+				<string>3683.37</string>
+				<key>minosversion</key>
+				<string>10.9</string>
+				<key>path</key>
+				<string>/Applications/Logic Pro X.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Logic Pro X.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.9</string>
+		<key>name</key>
+		<string>Logic Pro X</string>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>10.1.1</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>sgs-catalog</string>
+		</array>
+		<key>description</key>
 		<string>Numbers</string>
 		<key>display_name</key>
 		<string>Numbers</string>
@@ -524,6 +584,66 @@
 		<true/>
 		<key>version</key>
 		<string>6.1.1</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>sgs-catalog</string>
+		</array>
+		<key>description</key>
+		<string>Xcode Apple Integrated Developer Environment</string>
+		<key>display_name</key>
+		<string>Xcode</string>
+		<key>installer_item_hash</key>
+		<string>c5697e97f8860bb1cb892815c11e3832f1a31416f012bf41099a63d51fe92434</string>
+		<key>installer_item_location</key>
+		<string>apps/apple/Xcode-6.2.dmg</string>
+		<key>installer_item_size</key>
+		<integer>2746776</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.apple.dt.Xcode</string>
+				<key>CFBundleName</key>
+				<string>Xcode</string>
+				<key>CFBundleShortVersionString</key>
+				<string>6.2</string>
+				<key>CFBundleVersion</key>
+				<string>6776</string>
+				<key>minosversion</key>
+				<string>10.9.4</string>
+				<key>path</key>
+				<string>/Applications/Xcode.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Xcode.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.9.4</string>
+		<key>name</key>
+		<string>Xcode</string>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>6.2</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
