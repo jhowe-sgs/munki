@@ -18,7 +18,7 @@
 	<array>
   	<dict>
 		<key>path</key>
-		<string>/usr/local/munki/munkireport-2.2.0</string>
+		<string>/usr/local/munki/munkireport-2.3.0</string>
 		<key>type</key>
 		<string>file</string>
   	</dict>
@@ -46,9 +46,7 @@ rm -rf /usr/local/munki/preflight \
   /Library/Preferences/MunkiReport.plist
 exit 0</string>
 	<key>version</key>
-	<string>2.2.0</string>
-        <key>RestartAction</key>
-        <string>RequireLogout</string>
+	<string>2.3.0</string>
         <key>force_install_after_date</key>
         <date>2015-02-27T13:00:00Z</date>
 </dict>
