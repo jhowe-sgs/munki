@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>_metadata</key>
+	<dict>
+		<key>created_by</key>
+		<string>root</string>
+		<key>creation_date</key>
+		<date>2015-03-25T18:13:54Z</date>
+		<key>munki_version</key>
+		<string>1.0.0.1864</string>
+		<key>os_version</key>
+		<string>10.9.5</string>
+	</dict>
+	<key>autoremove</key>
+	<false/>
+	<key>catalogs</key>
+	<array>
+		<string>sgs-catalog</string>
+	</array>
+	<key>description</key>
+	<string>SGS_Printer_E4_Xerox_WorkCentre_3210_PCL_6</string>
+	<key>display_name</key>
+	<string>SGS_Printer_E4_Xerox_WorkCentre_3210_PCL_6</string>
+	<key>installer_item_hash</key>
+	<string>21f2a47cf5fa602c4b9b115842ac0b8a22dd2893e29dff83c23f619fabf6a745</string>
+	<key>installer_item_location</key>
+	<string>printers/SGS_Printer_E4_Xerox_WorkCentre_3210_PCL_6-2015.03.24.16.41.pkg</string>
+	<key>installer_item_size</key>
+	<integer>2</integer>
+	<key>minimum_os_version</key>
+	<string>10.5.0</string>
+	<key>name</key>
+	<string>SGS_Printer_E4_Xerox_WorkCentre_3210_PCL_6</string>
+	<key>receipts</key>
+	<array>
+		<dict>
+			<key>installed_size</key>
+			<integer>0</integer>
+			<key>packageid</key>
+			<string>org.seattlegirlsschool.SGS_Printer_E4_Xerox_WorkCentre_3210_PCL_6</string>
+			<key>version</key>
+			<string>2015.03.24.16.41</string>
+		</dict>
+	</array>
+	<key>uninstall_method</key>
+	<string>/etc/cups/printers_deployment/uninstalls/E4_Xerox_WorkCentre_3210_PCL_6.sh</string>
+	<key>uninstallable</key>
+	<true/>
+        <key>unattended_install</key>
+        <true/>
+	<key>version</key>
+	<string>2015.03.24.16.41</string>
+</dict>
+</plist>

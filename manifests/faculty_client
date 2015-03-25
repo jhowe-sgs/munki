@@ -26,25 +26,37 @@
 		<string>DisableGateKeeper</string>
 		<string>PyCharm</string>
 		<string>RStudio</string>
-                <string>Final Cut Pro</string>
-                <string>iMovie</string>
-                <string>Keynote</string>
-                <string>Numbers</string>
-                <string>Pixelmator</string>
-                <string>OneDrive</string>
-                <string>Disable_PCClient</string>
-                <string>Remove_Battery_Health</string>
-                <string>Remove_GSP5</string>
-                <string>Remove_KeyCastr</string>
-                <string>Remove_Kindle</string>
-                <string>Remove_SourceTree</string>
-                <string>IPEVO Presenter</string>
-                <string>GarageBand</string>
-                <string>Google Voice and Video</string>
-                <string>SGS_CA</string>
-                <string>Xee</string>
-                <string>PyCharm Educational Edition</string>
-                <string>munkireport</string>
+		<string>Final Cut Pro</string>
+		<string>iMovie</string>
+		<string>Keynote</string>
+		<string>Numbers</string>
+		<string>Pixelmator</string>
+		<string>OneDrive</string>
+		<string>Disable_PCClient</string>
+		<string>Remove_Battery_Health</string>
+		<string>Remove_GSP5</string>
+		<string>Remove_KeyCastr</string>
+		<string>Remove_Kindle</string>
+		<string>Remove_SourceTree</string>
+		<string>IPEVO Presenter</string>
+		<string>GarageBand</string>
+		<string>Google Voice and Video</string>
+		<string>SGS_CA</string>
+		<string>Xee</string>
+		<string>PyCharm Educational Edition</string>
+		<string>munkireport</string>
+		<string>SGS_Printer_5th_Grade_HP_LaserJet_1300n_PCL_6</string>
+		<string>SGS_Printer_6th_Grade_Central_HP_LaserJet_4000_PCL_6</string>
+		<string>SGS_Printer_6th_Grade_North_HP_LasetJet_2300_PCL_6</string>
+		<string>SGS_Printer_7th_Grade_East_HP_LaserJet_1320_PCL_6</string>
+		<string>SGS_Printer_7th_Grade_West_HP_LaserJet_1320_PCL_6</string>
+		<string>SGS_Printer_8th_Grade_Lab_HP_LaserJet_1300n_PCL_6</string>
+		<string>SGS_Printer_8th_Grade_Library_HP_LasetJet_P2015dn_PCL_6</string>
+		<string>SGS_Printer_Art_Room_HP_LaserJet_4300_PCL_6</string>
+		<string>SGS_Printer_Building_Two_Canon_Image_Runner_1740iF_PCL6</string>
+		<string>SGS_Printer_CMR_HP_LaserJet_4000_PCL_6</string>
+		<string>SGS_Printer_Main_Copier_Konica_C552DS</string>
+		<string>SGS_Printer_Singh_House_First_Floor_HP_LaserJet_1300n_PCL_6</string>
 	</array>
 	<key>managed_uninstalls</key>
 	<array>
