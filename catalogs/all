@@ -533,75 +533,15 @@
 			<string>sgs-catalog</string>
 		</array>
 		<key>description</key>
-		<string>Xcode</string>
-		<key>display_name</key>
-		<string>Xcode</string>
-		<key>installer_item_hash</key>
-		<string>612a6eb3feb1e5ba09dc6f88c2383e9bec4083b7dd44a73cc65aa58372c05d5f</string>
-		<key>installer_item_location</key>
-		<string>apps/apple/Xcode-6.1.1.dmg</string>
-		<key>installer_item_size</key>
-		<integer>2640348</integer>
-		<key>installer_type</key>
-		<string>copy_from_dmg</string>
-		<key>installs</key>
-		<array>
-			<dict>
-				<key>CFBundleIdentifier</key>
-				<string>com.apple.dt.Xcode</string>
-				<key>CFBundleName</key>
-				<string>Xcode</string>
-				<key>CFBundleShortVersionString</key>
-				<string>6.1.1</string>
-				<key>CFBundleVersion</key>
-				<string>6611</string>
-				<key>minosversion</key>
-				<string>10.9.4</string>
-				<key>path</key>
-				<string>/Applications/Xcode.app</string>
-				<key>type</key>
-				<string>application</string>
-				<key>version_comparison_key</key>
-				<string>CFBundleShortVersionString</string>
-			</dict>
-		</array>
-		<key>items_to_copy</key>
-		<array>
-			<dict>
-				<key>destination_path</key>
-				<string>/Applications</string>
-				<key>source_item</key>
-				<string>Xcode.app</string>
-			</dict>
-		</array>
-		<key>minimum_os_version</key>
-		<string>10.9.4</string>
-		<key>name</key>
-		<string>Xcode</string>
-		<key>uninstall_method</key>
-		<string>remove_copied_items</string>
-		<key>uninstallable</key>
-		<true/>
-		<key>version</key>
-		<string>6.1.1</string>
-	</dict>
-	<dict>
-		<key>autoremove</key>
-		<false/>
-		<key>catalogs</key>
-		<array>
-			<string>sgs-catalog</string>
-		</array>
-		<key>description</key>
 		<string>Xcode Apple Integrated Developer Environment</string>
 		<key>display_name</key>
 		<string>Xcode</string>
 		<key>installer_item_hash</key>
-		<string>c5697e97f8860bb1cb892815c11e3832f1a31416f012bf41099a63d51fe92434</string>
+		<string>a93e3b8a002042d42f190b9f92985003b3a34a859cc56b56574233eefe0198ef</string>
 		<key>installer_item_location</key>
-		<string>apps/apple/Xcode-6.2.dmg</string>
+		<string>apps/apple/Xcode-6.2__1.dmg</string>
 		<key>installer_item_size</key>
-		<integer>2746776</integer>
+		<integer>2748634</integer>
 		<key>installer_type</key>
 		<string>copy_from_dmg</string>
 		<key>installs</key>
@@ -945,6 +885,70 @@
 		<true/>
 		<key>version</key>
 		<string>0.0.7</string>
+	</dict>
+	<dict>
+		<key>RestartAction</key>
+		<string>RequireLogout</string>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>sgs-catalog</string>
+		</array>
+		<key>description</key>
+		<string>Web Browser from Google</string>
+		<key>display_name</key>
+		<string>Google Chrome</string>
+		<key>force_install_after_date</key>
+		<date>2015-04-02T13:00:00Z</date>
+		<key>installer_item_hash</key>
+		<string>bcfb3d27489f7c42be953eaa59331f8db6da76e786968ae8810900d422b58e8b</string>
+		<key>installer_item_location</key>
+		<string>apps/google/GoogleChrome-41.0.2272.104.dmg</string>
+		<key>installer_item_size</key>
+		<integer>66587</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.google.Chrome</string>
+				<key>CFBundleName</key>
+				<string>Chrome</string>
+				<key>CFBundleShortVersionString</key>
+				<string>41.0.2272.104</string>
+				<key>CFBundleVersion</key>
+				<string>2272.104</string>
+				<key>minosversion</key>
+				<string>10.6.0</string>
+				<key>path</key>
+				<string>/Applications/Google Chrome.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Google Chrome.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.6.0</string>
+		<key>name</key>
+		<string>Chrome</string>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>41.0.2272.104</string>
 	</dict>
 	<dict>
 		<key>RestartAction</key>

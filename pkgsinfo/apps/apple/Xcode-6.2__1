@@ -7,7 +7,7 @@
 		<key>created_by</key>
 		<string>root</string>
 		<key>creation_date</key>
-		<date>2015-03-11T18:43:07Z</date>
+		<date>2015-04-01T23:36:07Z</date>
 		<key>munki_version</key>
 		<string>1.0.0.1864</string>
 		<key>os_version</key>
@@ -24,11 +24,11 @@
 	<key>display_name</key>
 	<string>Xcode</string>
 	<key>installer_item_hash</key>
-	<string>c5697e97f8860bb1cb892815c11e3832f1a31416f012bf41099a63d51fe92434</string>
+	<string>a93e3b8a002042d42f190b9f92985003b3a34a859cc56b56574233eefe0198ef</string>
 	<key>installer_item_location</key>
-	<string>apps/apple/Xcode-6.2.dmg</string>
+	<string>apps/apple/Xcode-6.2__1.dmg</string>
 	<key>installer_item_size</key>
-	<integer>2746776</integer>
+	<integer>2748634</integer>
 	<key>installer_type</key>
 	<string>copy_from_dmg</string>
 	<key>installs</key>
