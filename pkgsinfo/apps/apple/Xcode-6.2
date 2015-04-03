@@ -7,7 +7,7 @@
 		<key>created_by</key>
 		<string>root</string>
 		<key>creation_date</key>
-		<date>2015-04-01T23:36:07Z</date>
+		<date>2015-04-02T22:15:13Z</date>
 		<key>munki_version</key>
 		<string>1.0.0.1864</string>
 		<key>os_version</key>
@@ -24,11 +24,11 @@
 	<key>display_name</key>
 	<string>Xcode</string>
 	<key>installer_item_hash</key>
-	<string>a93e3b8a002042d42f190b9f92985003b3a34a859cc56b56574233eefe0198ef</string>
+	<string>00545c078470c14e6a53204324e2c10283c18c86d3a9f580bf90cbe97c6c28ec</string>
 	<key>installer_item_location</key>
-	<string>apps/apple/Xcode-6.2__1.dmg</string>
+	<string>apps/apple/Xcode_6.2.dmg</string>
 	<key>installer_item_size</key>
-	<integer>2748634</integer>
+	<integer>2712949</integer>
 	<key>installer_type</key>
 	<string>copy_from_dmg</string>
 	<key>installs</key>
@@ -71,5 +71,18 @@
 	<true/>
 	<key>version</key>
 	<string>6.2</string>
+        <key>postinstall_script</key>
+        <string>#!/bin/bash
+# make sure all users on this machine are members of the _developer group 
+/usr/sbin/dseditgroup -o edit -a everyone -t group _developer 
+# enable developer mode 
+/usr/sbin/DevToolsSecurity -enable 
+# accept Xcode license 
+/Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -license accept 
+# install embedded packages 
+for PKG in `/bin/ls /Applications/Xcode.app/Contents/Resources/Packages/*.pkg` ; do 
+    /usr/sbin/installer -pkg "$PKG" -target / 
+done 
+        </string>
 </dict>
 </plist>
