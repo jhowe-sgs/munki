@@ -40,10 +40,11 @@
 		<string>Xcode</string>
 		<string>Google Voice and Video</string>
 		<string>SGS_CA</string>
-                <string>Xee</string>
-                <string>PyCharm Educational Edition</string>
-                <string>munkireport</string>
-                <string>Ignore_ProVideoFormats_2.0.1</string>
+		<string>Xee</string>
+		<string>PyCharm Educational Edition</string>
+		<string>munkireport</string>
+		<string>Ignore_ProVideoFormats_2.0.1</string>
+		<string>Hide_Mach_Kernel</string>
 	</array>
 	<key>managed_uninstalls</key>
 	<array>

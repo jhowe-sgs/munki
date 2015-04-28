@@ -48,6 +48,8 @@
 		<string>SGS_Printer_Director_of_Development_HP_LaserJet_P2015DN_PCL_6</string>
 		<string>SGS_Printer_Main_Copier_Konica_C552DS</string>
 		<string>SGS_Printer_Singh_House_First_Floor_HP_LaserJet_1300n_PCL_6</string>
+		<string>Ignore_ProVideoFormats_2.0.1</string>
+		<string>Hide_Mach_Kernel</string>
 	</array>
 	<key>managed_uninstalls</key>
 	<array>

@@ -47,6 +47,12 @@
 		<string>munkireport</string>
 		<string>SGS_Printer_Art_Room_HP_LaserJet_4300_PCL_6</string>
 		<string>SGS_Printer_Main_Copier_Konica_C552DS</string>
+		<string>Ignore_ProVideoFormats_2.0.1</string>
+		<string>Hide_Mach_Kernel</string>
+	</array>
+	<key>optional_installs</key>
+	<array>
+		<string>Xcode</string>
 	</array>
 	<key>managed_uninstalls</key>
 	<array>

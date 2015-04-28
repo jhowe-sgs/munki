@@ -56,11 +56,12 @@
 		<string>SGS_Printer_Building_Two_Canon_Image_Runner_1740iF_PCL6</string>
 		<string>SGS_Printer_CMR_HP_LaserJet_4000_PCL_6</string>
 		<string>Ignore_ProVideoFormats_2.0.1</string>
+		<string>Hide_Mach_Kernel</string>
 	</array>
-        <key>optional_installs</key>
-        <array>
-                <string>Xcode</string>
-        </array>
+	<key>optional_installs</key>
+	<array>
+		<string>Xcode</string>
+	</array>
 	<key>managed_uninstalls</key>
 	<array>
 	</array>
