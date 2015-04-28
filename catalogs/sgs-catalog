@@ -4047,15 +4047,13 @@ fi
 		</array>
 		<key>display_name</key>
 		<string>MunkiReport Install and Config</string>
-		<key>force_install_after_date</key>
-		<date>2015-02-27T13:00:00Z</date>
 		<key>installer_type</key>
 		<string>nopkg</string>
 		<key>installs</key>
 		<array>
 			<dict>
 				<key>path</key>
-				<string>/usr/local/munki/munkireport-2.3.0</string>
+				<string>/usr/local/munki/munkireport-2.4.2</string>
 				<key>type</key>
 				<string>file</string>
 			</dict>
@@ -4085,7 +4083,7 @@ exit 0</string>
 		<key>uninstallable</key>
 		<true/>
 		<key>version</key>
-		<string>2.3.0</string>
+		<string>2.4.2.1076</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
