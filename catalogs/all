@@ -3815,6 +3815,49 @@ fi
 			<string>sgs-catalog</string>
 		</array>
 		<key>description</key>
+		<string>Ignore_ProVideoFormats_2.0.1</string>
+		<key>display_name</key>
+		<string>Ignore_ProVideoFormats_2_0_1</string>
+		<key>installed_size</key>
+		<integer>369</integer>
+		<key>installer_item_hash</key>
+		<string>2ef6fbe529f249c0e520464060b195d77f8da82f19c12db7c45dba9f0e36318f</string>
+		<key>installer_item_location</key>
+		<string>utilities/Ignore_ProVideoFormats_2_0_1-2015042801.pkg</string>
+		<key>installer_item_size</key>
+		<integer>248</integer>
+		<key>minimum_os_version</key>
+		<string>10.9.4</string>
+		<key>name</key>
+		<string>Ignore_ProVideoFormats_2.0.1</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>369</integer>
+				<key>packageid</key>
+				<string>org.seattlegirlsschool.ignore_provideoformats_2_0_1</string>
+				<key>version</key>
+				<string>2015042801</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>2015042801</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>sgs-catalog</string>
+		</array>
+		<key>description</key>
 		<string>Java for OS X 2013-005</string>
 		<key>display_name</key>
 		<string>Java for OS X 2013-005</string>
