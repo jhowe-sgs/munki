@@ -151,6 +151,51 @@
 		<string>17.0.0.188</string>
 	</dict>
 	<dict>
+		<key>RestartAction</key>
+		<string>RequireLogout</string>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>sgs-catalog</string>
+		</array>
+		<key>description</key>
+		<string>Adobe Flash Player</string>
+		<key>display_name</key>
+		<string>Adobe Flash Player</string>
+		<key>force_install_after_date</key>
+		<date>2015-06-15T13:00:00Z</date>
+		<key>installed_size</key>
+		<integer>16497</integer>
+		<key>installer_item_hash</key>
+		<string>d78b592ff92738b24f93f8697f632a43ef83a6fcfa6ecfb5a58fe31363067e31</string>
+		<key>installer_item_location</key>
+		<string>apps/adobe/Install Adobe Flash Player-18.0.0.160.pkg</string>
+		<key>installer_item_size</key>
+		<integer>15193</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>Adobe Flash Player</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>16497</integer>
+				<key>packageid</key>
+				<string>com.adobe.pkg.FlashPlayer</string>
+				<key>version</key>
+				<string>18.0.0.160</string>
+			</dict>
+		</array>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>18.0.0.160</string>
+	</dict>
+	<dict>
 		<key>autoremove</key>
 		<false/>
 		<key>catalogs</key>
@@ -1022,6 +1067,70 @@ done
 		<key>display_name</key>
 		<string>Google Chrome</string>
 		<key>force_install_after_date</key>
+		<date>2015-06-15T13:00:00Z</date>
+		<key>installer_item_hash</key>
+		<string>533e91ff9b56033b787f7b4398354e3b0000f9e36511917c3667b41c124aafd2</string>
+		<key>installer_item_location</key>
+		<string>apps/google/googlechrome-43.0.2357.124.dmg</string>
+		<key>installer_item_size</key>
+		<integer>64384</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.google.Chrome</string>
+				<key>CFBundleName</key>
+				<string>Chrome</string>
+				<key>CFBundleShortVersionString</key>
+				<string>43.0.2357.124</string>
+				<key>CFBundleVersion</key>
+				<string>2357.124</string>
+				<key>minosversion</key>
+				<string>10.6.0</string>
+				<key>path</key>
+				<string>/Applications/Google Chrome.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Google Chrome.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.6.0</string>
+		<key>name</key>
+		<string>Chrome</string>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>43.0.2357.124</string>
+	</dict>
+	<dict>
+		<key>RestartAction</key>
+		<string>RequireLogout</string>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>sgs-catalog</string>
+		</array>
+		<key>description</key>
+		<string>Web Browser from Google</string>
+		<key>display_name</key>
+		<string>Google Chrome</string>
+		<key>force_install_after_date</key>
 		<date>2015-05-28T13:00:00Z</date>
 		<key>installer_item_hash</key>
 		<string>b95d2cb2ad55b907891357868eb736930304693eed9aa6eeffbfdb922a382361</string>
@@ -1129,6 +1238,68 @@ done
 		<true/>
 		<key>version</key>
 		<string>1.18</string>
+	</dict>
+	<dict>
+		<key>RestartAction</key>
+		<string>RequireLogout</string>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>sgs-catalog</string>
+		</array>
+		<key>description</key>
+		<string>Google Drive</string>
+		<key>display_name</key>
+		<string>Google Drive</string>
+		<key>force_install_after_date</key>
+		<date>2015-06-15T13:00:00Z</date>
+		<key>installer_item_hash</key>
+		<string>6401e26ef42bfb15bedddf11044ea79b04886dd263654d45e21850af48a39e29</string>
+		<key>installer_item_location</key>
+		<string>apps/google/installgoogledrive-1.21.dmg</string>
+		<key>installer_item_size</key>
+		<integer>41284</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>com.google.GoogleDrive</string>
+				<key>CFBundleName</key>
+				<string>Google Drive</string>
+				<key>CFBundleShortVersionString</key>
+				<string>1.21</string>
+				<key>CFBundleVersion</key>
+				<string>1.21.9226.6034</string>
+				<key>path</key>
+				<string>/Applications/Google Drive.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Google Drive.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.4.0</string>
+		<key>name</key>
+		<string>Google Drive</string>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>1.21</string>
 	</dict>
 	<dict>
 		<key>RestartAction</key>
@@ -2485,6 +2656,66 @@ fi
 		<true/>
 		<key>version</key>
 		<string>31.7.0</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>sgs-catalog</string>
+		</array>
+		<key>description</key>
+		<string>EMail Client from Mozilla</string>
+		<key>display_name</key>
+		<string>Mozilla Thunderbird</string>
+		<key>installer_item_hash</key>
+		<string>f2c9b8814b2be676580c2a03687b5ceea641ac19f2e72db70daf724dc7f755a4</string>
+		<key>installer_item_location</key>
+		<string>apps/mozilla/Thunderbird 38.0.1.dmg</string>
+		<key>installer_item_size</key>
+		<integer>68347</integer>
+		<key>installer_type</key>
+		<string>copy_from_dmg</string>
+		<key>installs</key>
+		<array>
+			<dict>
+				<key>CFBundleIdentifier</key>
+				<string>org.mozilla.thunderbird</string>
+				<key>CFBundleName</key>
+				<string>Thunderbird</string>
+				<key>CFBundleShortVersionString</key>
+				<string>38.0.1</string>
+				<key>CFBundleVersion</key>
+				<string>38.0.1</string>
+				<key>minosversion</key>
+				<string>10.6.0</string>
+				<key>path</key>
+				<string>/Applications/Thunderbird.app</string>
+				<key>type</key>
+				<string>application</string>
+				<key>version_comparison_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+		</array>
+		<key>items_to_copy</key>
+		<array>
+			<dict>
+				<key>destination_path</key>
+				<string>/Applications</string>
+				<key>source_item</key>
+				<string>Thunderbird.app</string>
+			</dict>
+		</array>
+		<key>minimum_os_version</key>
+		<string>10.6.0</string>
+		<key>name</key>
+		<string>Thunderbird</string>
+		<key>uninstall_method</key>
+		<string>remove_copied_items</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>38.0.1</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
