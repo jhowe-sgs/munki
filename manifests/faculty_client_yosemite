@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>catalogs</key>
+	<array>
+		<string>sgs-catalog</string>
+	</array>
+	<key>included_manifests</key>
+	<array>
+	</array>
+	<key>managed_installs</key>
+	<array>
+		<string>Firefox</string>
+		<string>Chrome</string>
+		<string>Adobe Flash Player</string>
+		<string>VLC</string>
+		<string>Silverlight</string>
+		<string>libdvdcss</string>
+		<string>Final Cut Pro</string>
+		<string>iMovie</string>
+		<string>Keynote</string>
+		<string>Numbers</string>
+		<string>GarageBand</string>
+		<string>SGS_CA</string>
+		<string>Xee</string>
+		<string>munkireport</string>
+	</array>
+	<key>managed_uninstalls</key>
+	<array>
+	</array>
+</dict>
+</plist>

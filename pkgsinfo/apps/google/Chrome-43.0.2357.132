@@ -7,9 +7,9 @@
 		<key>created_by</key>
 		<string>root</string>
 		<key>creation_date</key>
-		<date>2015-06-12T21:34:13Z</date>
+		<date>2015-07-10T22:59:03Z</date>
 		<key>munki_version</key>
-		<string>1.0.0.1864</string>
+		<string>2.2.4.2431</string>
 		<key>os_version</key>
 		<string>10.9.5</string>
 	</dict>
@@ -19,16 +19,20 @@
 	<array>
 		<string>sgs-catalog</string>
 	</array>
+	<key>category</key>
+	<string></string>
 	<key>description</key>
 	<string>Web Browser from Google</string>
+	<key>developer</key>
+	<string></string>
 	<key>display_name</key>
 	<string>Google Chrome</string>
 	<key>installer_item_hash</key>
-	<string>533e91ff9b56033b787f7b4398354e3b0000f9e36511917c3667b41c124aafd2</string>
+	<string>967574df44f3272fd0433a9a8d20de41f51dad45188b4b4165bd0458822f3df6</string>
 	<key>installer_item_location</key>
-	<string>apps/google/googlechrome-43.0.2357.124.dmg</string>
+	<string>apps/google/googlechrome-43.0.2357.132.dmg</string>
 	<key>installer_item_size</key>
-	<integer>64384</integer>
+	<integer>64811</integer>
 	<key>installer_type</key>
 	<string>copy_from_dmg</string>
 	<key>installs</key>
@@ -39,9 +43,9 @@
 			<key>CFBundleName</key>
 			<string>Chrome</string>
 			<key>CFBundleShortVersionString</key>
-			<string>43.0.2357.124</string>
+			<string>43.0.2357.132</string>
 			<key>CFBundleVersion</key>
-			<string>2357.124</string>
+			<string>2357.132</string>
 			<key>minosversion</key>
 			<string>10.6.0</string>
 			<key>path</key>
@@ -70,10 +74,10 @@
 	<key>uninstallable</key>
 	<true/>
 	<key>version</key>
-	<string>43.0.2357.124</string>
+	<string>43.0.2357.132</string>
 	<key>RestartAction</key>
 	<string>RequireLogout</string>
 	<key>force_install_after_date</key>
-	<date>2015-06-15T13:00:00Z</date>
+	<date>2015-07-10T13:00:00Z</date>
 </dict>
 </plist>
