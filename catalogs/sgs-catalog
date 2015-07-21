@@ -3111,6 +3111,53 @@ fi
 		<array>
 			<string>sgs-catalog</string>
 		</array>
+		<key>category</key>
+		<string></string>
+		<key>description</key>
+		<string>Remove_2014_Printers</string>
+		<key>developer</key>
+		<string></string>
+		<key>display_name</key>
+		<string>Remove_2014_Printers</string>
+		<key>installed_size</key>
+		<integer>369</integer>
+		<key>installer_item_hash</key>
+		<string>bf281c6082e69b7c80f6bb0725ba2fee7cc01dfc56456774ac19ce0e584b58e2</string>
+		<key>installer_item_location</key>
+		<string>printers/Remove_2014_Printers-201507211250.pkg</string>
+		<key>installer_item_size</key>
+		<integer>248</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>Remove_2014_Printers</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>369</integer>
+				<key>packageid</key>
+				<string>org.seattlegirlsschool.remove-2014-printers</string>
+				<key>version</key>
+				<string>201507211250</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>removepackages</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>201507211250</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>sgs-catalog</string>
+		</array>
 		<key>description</key>
 		<string>SGS_Printer_5th_Grade_HP_LaserJet_1300n_PCL_6</string>
 		<key>display_name</key>
@@ -3759,6 +3806,51 @@ fi
 		<true/>
 		<key>version</key>
 		<string>2015.03.24.15.42</string>
+	</dict>
+	<dict>
+		<key>autoremove</key>
+		<false/>
+		<key>catalogs</key>
+		<array>
+			<string>sgs-catalog</string>
+		</array>
+		<key>category</key>
+		<string></string>
+		<key>description</key>
+		<string>SGS_Printer_Main_Copier_Konica_C552DS</string>
+		<key>developer</key>
+		<string></string>
+		<key>display_name</key>
+		<string>SGS_Printer_Main_Copier_Konica_C552DS</string>
+		<key>installer_item_hash</key>
+		<string>b3a5bf4c9e1f10b37e7f10dd355d496e311dfe89de37d592a6cba00f2671db06</string>
+		<key>installer_item_location</key>
+		<string>printers/SGS_Printer_Main_Copier_Konica_C552DS-2015.07.21.12.17.pkg</string>
+		<key>installer_item_size</key>
+		<integer>2</integer>
+		<key>minimum_os_version</key>
+		<string>10.5.0</string>
+		<key>name</key>
+		<string>SGS_Printer_Main_Copier_Konica_C552DS</string>
+		<key>receipts</key>
+		<array>
+			<dict>
+				<key>installed_size</key>
+				<integer>0</integer>
+				<key>packageid</key>
+				<string>org.seattlegirlsschool.SGS_Printer_Main_Copier_Konica_C552DS</string>
+				<key>version</key>
+				<string>2015.07.21.12.17</string>
+			</dict>
+		</array>
+		<key>unattended_install</key>
+		<true/>
+		<key>uninstall_method</key>
+		<string>/etc/cups/deployed_printers/uninstalls/Main_Copier_Konica_C552DS.sh</string>
+		<key>uninstallable</key>
+		<true/>
+		<key>version</key>
+		<string>2015.07.21.12.17</string>
 	</dict>
 	<dict>
 		<key>autoremove</key>
